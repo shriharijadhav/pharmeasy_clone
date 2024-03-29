@@ -1,6 +1,7 @@
 let allHomepageData = JSON.parse(localStorage.getItem('allHomepageData_key'))? (JSON.parse(localStorage.getItem('allHomepageData_key'))): 0;
 let heroSectionMenus;
 let heroSectionSlideshow;
+let labTestSlideshowData;
 
 function saveToLocalStorage(key, value) {
     localStorage.setItem(`${key}`, JSON.stringify(value));
@@ -41,25 +42,61 @@ function showHeroSectionMenus(data){
     }
 }
 
+function showLabTestSlideshow(data){
+    if(data.length > 0){
+        // Get the parent ul element
+        const parentUl = document.getElementById('labtest_ul_parent');
+
+        // Loop through the data and create list items dynamically
+        data.forEach(item => {
+        
+            console.log(item.imgUrl)
+        
+            // Create li element
+
+            const anchor = document.createElement('a');
+            anchor.href = './pages/labTest.html';
+
+        const li = document.createElement('li');
+
+       
+
+        // Create div element with background image
+        const div = document.createElement('div');
+        div.classList.add('slide_labtest');
+        if (item.imgUrl) {
+            div.style.backgroundImage = `url('${item.imgUrl}')`;
+            div.style.backgroundSize = 'cover';
+        }
+
+
+        anchor.appendChild(div);
+
+        // Append li to ul
+        parentUl.appendChild(anchor);
+        });
+    }
+}
+
+
 // get data using async & await- recommended approach
 async function getAllHomepageData(){
     // use try-catch block to avoid runtime errors
     try {
         const response = await fetch('https://customapis.onrender.com/api/v1/getPharmEasyHomepageData');
         const data = await response.json();
-        // console.log(data)
+        console.log(data)
         // console.log data to check structure of data then assign particular property or whole data to global variables
         heroSectionMenus = data.message[0].homPageData.heroSectionMenus;
         showHeroSectionMenus(heroSectionMenus);
-        // assign data to global variable- allProductDetails
-        // allHomepageData = data;
+        
         heroSectionSlideshow = data.message[0].homPageData.heroSectionSlideshow;
         showHeroSectionSlider(heroSectionSlideshow);
-        // call showProductDetails(allProductDetails) - to render UI on window.onload itself
-        // showProductDetails(allProductDetails);
 
-        // save data to local storage with key 'allProducts'
-        // saveToLocalStorage('allHomepageData_key',allProductDetails);
+        labTestSlideshowData = data.message[0].homPageData.labTestSlideshow;
+        showLabTestSlideshow(labTestSlideshowData);        
+
+        
 
 
 
@@ -283,6 +320,7 @@ class PostSlider {
     }
 
     setActiveDotByScroll() {
+       try {
         this.dots = this.container.querySelectorAll('.dots span');
         this.slider.addEventListener('scroll', () => {
             const scrollLeft = this.slider.scrollLeft;
@@ -300,6 +338,9 @@ class PostSlider {
             this.prevBtn.style.opacity = Math.abs(scrollLeft) < 1 ? '0' : '1'; /*it means there is no element before so it would hide prev button*/
             this.nextBtn.style.opacity = Math.abs(scrollLeft) + 2 >= this.slider.scrollWidth - this.slider.clientWidth ? '0' : '1'; /*it means there is no element after so it would hide next button*/
         });
+       } catch (error) {
+        
+       }
     }
 
 
@@ -374,6 +415,52 @@ window.addEventListener('load',function (){
 // js for slider ends- hero section
 
 
+
+// js for lab slider starts here
+
+const slider_labtest = document.querySelector("[data-slider_labtest]");
+
+const track = slider_labtest.querySelector("[data-slider-track_labtest]");
+const prev = slider_labtest.querySelector("[data-slider-prev_labtest]");
+const next = slider_labtest.querySelector("[data-slider-next_labtest]");
+
+if (track) {
+  prev.addEventListener("click", () => {
+    next.removeAttribute("disabled");
+
+    track.scrollTo({
+      left: track.scrollLeft - track.firstElementChild.offsetWidth,
+      behavior: "smooth"
+    });
+  });
+
+  next.addEventListener("click", () => {
+    prev.removeAttribute("disabled");
+
+    track.scrollTo({
+      left: track.scrollLeft + track.firstElementChild.offsetWidth,
+      behavior: "smooth"
+    });
+  });
+
+  track.addEventListener("scroll", () => {
+    const trackScrollWidth = track.scrollWidth;
+    const trackOuterWidth = track.clientWidth;
+
+    prev.removeAttribute("disabled");
+    next.removeAttribute("disabled");
+
+    if (track.scrollLeft <= 0) {
+      prev.setAttribute("disabled", "");
+    }
+
+    if (track.scrollLeft === trackScrollWidth - trackOuterWidth) {
+      next.setAttribute("disabled", "");
+    }
+  });
+}
+
+// js for lab test slider ends here
 
 window.onload= function(){
     getAllHomepageData();
