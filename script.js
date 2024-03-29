@@ -2,6 +2,7 @@ let allHomepageData = JSON.parse(localStorage.getItem('allHomepageData_key'))? (
 let heroSectionMenus;
 let heroSectionSlideshow;
 let labTestSlideshowData;
+let newLaunchData;
 
 function saveToLocalStorage(key, value) {
     localStorage.setItem(`${key}`, JSON.stringify(value));
@@ -42,15 +43,15 @@ function showHeroSectionMenus(data){
     }
 }
 
-function showLabTestSlideshow(data){
+function showLabTestSlideshow(parentID,data){
     if(data.length > 0){
         // Get the parent ul element
-        const parentUl = document.getElementById('labtest_ul_parent');
+        const parentUl = document.getElementById(`${parentID}`);
 
         // Loop through the data and create list items dynamically
         data.forEach(item => {
         
-            console.log(item.imgUrl)
+            // console.log(item.imgUrl)
         
             // Create li element
 
@@ -69,11 +70,95 @@ function showLabTestSlideshow(data){
             div.style.backgroundSize = 'cover';
         }
 
-
-        anchor.appendChild(div);
+        li.appendChild(div);
+        anchor.appendChild(li);
 
         // Append li to ul
         parentUl.appendChild(anchor);
+        });
+    }
+}
+
+function showGeneralCardSlider(parentID,data,cardHeight){
+    console.log(data)
+    if(data.length > 0){
+        // Get the parent ul element
+        const parentDiv = document.getElementById(`${parentID}`);
+
+        // Loop through the data and create list items dynamically
+        data.forEach(item => {
+        
+                    
+        const a = document.createElement('a');
+        a.setAttribute('href', './pages/buyproduct.html');
+
+        const li = document.createElement('li');
+
+        const divSlide = document.createElement('div');
+        divSlide.classList.add('slide_general');
+        if(cardHeight>0){
+            divSlide.style.height = cardHeight + 'px';
+
+        }
+
+        const divItemImg = document.createElement('div');
+        divItemImg.classList.add('itemImg_div');
+
+        const img = document.createElement('img');
+        img.src= `${item.imgUrl}`;
+         img.classList.add('itemImage');
+        img.setAttribute('alt', '');
+        divItemImg.appendChild(img);
+
+        const divItemData = document.createElement('div');
+        divItemData.classList.add('item_data');
+
+        const divItemTitle = document.createElement('div');
+        divItemTitle.classList.add('item_title');
+
+        // Create elements
+        const pTitle = document.createElement('p');
+        const truncatedDescription = item.description.length > 35 ? item.description.substring(0, 35) + '...' : item.description;
+        pTitle.textContent = truncatedDescription;
+
+
+        const divOriginalPrice = document.createElement('div');
+        divOriginalPrice.classList.add('originalPrice_general');
+
+        const pMRP = document.createElement('p');
+        pMRP.textContent = 'MRP ';
+
+        const spanPrice = document.createElement('span');
+        spanPrice.classList.add('item_price_general');
+        spanPrice.textContent = `₹ ${item.price}`;
+
+        pMRP.appendChild(spanPrice);
+
+        const divDiscount = document.createElement('div');
+        divDiscount.classList.add('discount_general');
+
+        const pDiscount = document.createElement('p');
+        pDiscount.textContent = `₹ ${item.price-(item.price*(item.discount/100))}`;
+
+        const spanDiscount = document.createElement('span');
+        spanDiscount.classList.add('redColor_discount');
+        spanDiscount.textContent = ` (${item.discount}%)`;
+
+        // Append elements
+        divItemTitle.appendChild(pTitle);
+        divOriginalPrice.appendChild(pMRP);
+        divDiscount.appendChild(pDiscount);
+        pDiscount.appendChild(spanDiscount);
+        divItemData.appendChild(divItemTitle);
+        divItemData.appendChild(divOriginalPrice);
+        divItemData.appendChild(divDiscount);
+        divSlide.appendChild(divItemImg);
+        divSlide.appendChild(divItemData);
+        li.appendChild(divSlide);
+        a.appendChild(li);
+
+        parentDiv.appendChild(a);
+
         });
     }
 }
@@ -94,7 +179,10 @@ async function getAllHomepageData(){
         showHeroSectionSlider(heroSectionSlideshow);
 
         labTestSlideshowData = data.message[0].homPageData.labTestSlideshow;
-        showLabTestSlideshow(labTestSlideshowData);        
+        showLabTestSlideshow("labtest_ul_parent",labTestSlideshowData);   
+        
+        newLaunchData = data.message[0].homPageData.newLaunchData;
+        showGeneralCardSlider("shopByCategoryID",newLaunchData,320);
 
         
 
@@ -461,6 +549,54 @@ if (track) {
 }
 
 // js for lab test slider ends here
+
+
+// js for general card slider starts here
+ 
+const slider_general = document.querySelector("[data-slider_general]");
+
+const track_general = slider_general.querySelector("[data-slider-track_general]");
+const prev_general = slider_general.querySelector("[data-slider-prev_general]");
+const next_general = slider_general.querySelector("[data-slider-next_general]");
+
+if (track_general) {
+  prev_general.addEventListener("click", () => {
+    next_general.removeAttribute("disabled");
+
+    track_general.scrollTo({
+      left: track_general.scrollLeft - track_general.firstElementChild.offsetWidth,
+      behavior: "smooth"
+    });
+  });
+
+  next_general.addEventListener("click", () => {
+    prev_general.removeAttribute("disabled");
+
+    track_general.scrollTo({
+      left: track_general.scrollLeft + track_general.firstElementChild.offsetWidth,
+      behavior: "smooth"
+    });
+  });
+
+  track_general.addEventListener("scroll", () => {
+    const trackScrollWidth = track_general.scrollWidth;
+    const trackOuterWidth = track_general.clientWidth;
+
+    prev_general.removeAttribute("disabled");
+    next_general.removeAttribute("disabled");
+
+    if (track_general.scrollLeft <= 0) {
+      prev_general.setAttribute("disabled", "");
+    }
+
+    if (track_general.scrollLeft === trackScrollWidth - trackOuterWidth) {
+      next_general.setAttribute("disabled", "");
+    }
+  });
+}
+
+ 
+// js for general slider ends here 
 
 window.onload= function(){
     getAllHomepageData();
