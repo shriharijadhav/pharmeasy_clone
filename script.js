@@ -6,6 +6,7 @@ let newLaunchData;
 let shopByCategoryData;
 let featuredBrandData;
 let whyChooseUsData;
+let customerFeedbackData;
 
 try {
     
@@ -334,7 +335,62 @@ function showWhyChooseUseGrid(data){
         })
     }
 }
+function showCustomerFeedbacks(parentID,data) {
+    if(data.length>0){
 
+        let parentDiv = document.getElementById(`${parentID}`);
+    
+        data.forEach((item)=>{
+            
+        // Create grid item
+        const gridItem = document.createElement('div');
+        gridItem.classList.add('grid-item_F', 'takeFullHeight');
+
+        // Create feedback one div
+        const feedbackOneDiv = document.createElement('div');
+        feedbackOneDiv.classList.add('feedbackOne');
+
+        // Create name paragraph
+        const namePara = document.createElement('p');
+        namePara.classList.add('c_name');
+        namePara.textContent = item.name;
+
+        // Create date paragraph
+        const datePara = document.createElement('p');
+        datePara.classList.add('c_date');
+        datePara.textContent = item.date;
+
+        // Append name and date paragraphs to feedback one div
+        feedbackOneDiv.appendChild(namePara);
+        feedbackOneDiv.appendChild(datePara);
+
+        // Create feedback two div
+        const feedbackTwoDiv = document.createElement('div');
+        feedbackTwoDiv.classList.add('feedbackTwo');
+
+        // Create quote image
+        const quoteImg = document.createElement('img');
+        quoteImg.src = './images/logo_icons/quote.svg';
+        quoteImg.alt = '';
+
+        // Create feedback paragraph
+        const feedbackPara = document.createElement('p');
+        feedbackPara.textContent = item.message;
+
+        // Append quote image and feedback paragraph to feedback two div
+        feedbackTwoDiv.appendChild(quoteImg);
+        feedbackTwoDiv.appendChild(feedbackPara);
+
+        // Append feedback one and feedback two divs to grid item
+        gridItem.appendChild(feedbackOneDiv);
+        gridItem.appendChild(feedbackTwoDiv);
+
+        parentDiv.appendChild(gridItem);
+
+        });
+    
+    }
+}
 // get data using async & await- recommended approach
 async function getAllHomepageData(){
     // use try-catch block to avoid runtime errors
@@ -366,6 +422,11 @@ async function getAllHomepageData(){
 
         whyChooseUsData = data.message[0].homPageData.whyChooseUsData;
         showWhyChooseUseGrid(whyChooseUsData);
+
+        customerFeedbackData = data.message[0].homPageData.customerFeedbacks;
+        showCustomerFeedbacks("customerFeedbackID",customerFeedbackData);
+
+
         
 
 
@@ -783,6 +844,9 @@ if (track_general) {
 
  
 // js for general slider ends here 
+
+
+
 
 window.onload= function(){
     getAllHomepageData();
