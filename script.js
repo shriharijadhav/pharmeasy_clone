@@ -3,7 +3,10 @@ let heroSectionMenus;
 let heroSectionSlideshow;
 let labTestSlideshowData;
 let newLaunchData;
+let shopByCategoryData;
 
+try {
+    
 function saveToLocalStorage(key, value) {
     localStorage.setItem(`${key}`, JSON.stringify(value));
 }
@@ -88,9 +91,83 @@ function showGeneralCardSlider(parentID,data,cardHeight){
         // Loop through the data and create list items dynamically
         data.forEach(item => {
         
-                    
-        const a = document.createElement('a');
-        a.setAttribute('href', './pages/buyproduct.html');
+            if (item.description) {
+                                    
+                const a = document.createElement('a');
+                a.setAttribute('href', './pages/buyproduct.html');
+
+                const li = document.createElement('li');
+
+                const divSlide = document.createElement('div');
+                divSlide.classList.add('slide_general');
+                if(cardHeight>0){
+                    divSlide.style.height = cardHeight + 'px';
+
+                }
+
+                const divItemImg = document.createElement('div');
+                divItemImg.classList.add('itemImg_div');
+
+                const img = document.createElement('img');
+                img.src= `${item.imgUrl}`;
+                img.classList.add('itemImage');
+                img.setAttribute('alt', '');
+                divItemImg.appendChild(img);
+
+                const divItemData = document.createElement('div');
+                divItemData.classList.add('item_data');
+
+                const divItemTitle = document.createElement('div');
+                divItemTitle.classList.add('item_title');
+
+                // Create elements
+                const pTitle = document.createElement('p');
+                const truncatedDescription = item.description.length > 35 ? item.description.substring(0, 35) + '...' : item.description;
+                pTitle.textContent = truncatedDescription;
+
+
+                const divOriginalPrice = document.createElement('div');
+                divOriginalPrice.classList.add('originalPrice_general');
+
+                const pMRP = document.createElement('p');
+                pMRP.textContent = 'MRP ';
+
+                const spanPrice = document.createElement('span');
+                spanPrice.classList.add('item_price_general');
+                spanPrice.textContent = `₹ ${item.price}`;
+
+                pMRP.appendChild(spanPrice);
+
+                const divDiscount = document.createElement('div');
+                divDiscount.classList.add('discount_general');
+
+                const pDiscount = document.createElement('p');
+                pDiscount.textContent = `₹ ${item.price-(item.price*(item.discount/100))}`;
+
+                const spanDiscount = document.createElement('span');
+                spanDiscount.classList.add('redColor_discount');
+                spanDiscount.textContent = ` (${item.discount}%)`;
+
+                // Append elements
+                divItemTitle.appendChild(pTitle);
+                divOriginalPrice.appendChild(pMRP);
+                divDiscount.appendChild(pDiscount);
+                pDiscount.appendChild(spanDiscount);
+                divItemData.appendChild(divItemTitle);
+                divItemData.appendChild(divOriginalPrice);
+                divItemData.appendChild(divDiscount);
+                divSlide.appendChild(divItemImg);
+                divSlide.appendChild(divItemData);
+                li.appendChild(divSlide);
+                a.appendChild(li);
+
+
+                parentDiv.appendChild(a);
+
+            }else{
+         console.log('in else part')              
+        const anchorTwo = document.createElement('a');
+        anchorTwo.setAttribute('href', './pages/buyproduct.html');
 
         const li = document.createElement('li');
 
@@ -98,7 +175,7 @@ function showGeneralCardSlider(parentID,data,cardHeight){
         divSlide.classList.add('slide_general');
         if(cardHeight>0){
             divSlide.style.height = cardHeight + 'px';
-
+            divSlide.style.width = 150 + 'px';
         }
 
         const divItemImg = document.createElement('div');
@@ -111,53 +188,30 @@ function showGeneralCardSlider(parentID,data,cardHeight){
         divItemImg.appendChild(img);
 
         const divItemData = document.createElement('div');
-        divItemData.classList.add('item_data');
+        divItemData.classList.add('item_data','myTextCenter');
 
         const divItemTitle = document.createElement('div');
         divItemTitle.classList.add('item_title');
 
         // Create elements
         const pTitle = document.createElement('p');
-        const truncatedDescription = item.description.length > 35 ? item.description.substring(0, 35) + '...' : item.description;
-        pTitle.textContent = truncatedDescription;
+        pTitle.textContent = item.categoryName;
 
 
-        const divOriginalPrice = document.createElement('div');
-        divOriginalPrice.classList.add('originalPrice_general');
 
-        const pMRP = document.createElement('p');
-        pMRP.textContent = 'MRP ';
-
-        const spanPrice = document.createElement('span');
-        spanPrice.classList.add('item_price_general');
-        spanPrice.textContent = `₹ ${item.price}`;
-
-        pMRP.appendChild(spanPrice);
-
-        const divDiscount = document.createElement('div');
-        divDiscount.classList.add('discount_general');
-
-        const pDiscount = document.createElement('p');
-        pDiscount.textContent = `₹ ${item.price-(item.price*(item.discount/100))}`;
-
-        const spanDiscount = document.createElement('span');
-        spanDiscount.classList.add('redColor_discount');
-        spanDiscount.textContent = ` (${item.discount}%)`;
 
         // Append elements
         divItemTitle.appendChild(pTitle);
-        divOriginalPrice.appendChild(pMRP);
-        divDiscount.appendChild(pDiscount);
-        pDiscount.appendChild(spanDiscount);
         divItemData.appendChild(divItemTitle);
-        divItemData.appendChild(divOriginalPrice);
-        divItemData.appendChild(divDiscount);
         divSlide.appendChild(divItemImg);
         divSlide.appendChild(divItemData);
         li.appendChild(divSlide);
-        a.appendChild(li);
+        anchorTwo.appendChild(li);
 
-        parentDiv.appendChild(a);
+        parentDiv.appendChild(anchorTwo);
+
+        }
+
 
         });
     }
@@ -182,7 +236,10 @@ async function getAllHomepageData(){
         showLabTestSlideshow("labtest_ul_parent",labTestSlideshowData);   
         
         newLaunchData = data.message[0].homPageData.newLaunchData;
-        showGeneralCardSlider("shopByCategoryID",newLaunchData,320);
+        showGeneralCardSlider("newLaunchesDivID",newLaunchData,320);
+
+        shopByCategoryData = data.message[0].homPageData.shopByCategory;
+        showGeneralCardSlider("shopByCategoryDivID",shopByCategoryData,200);
 
         
 
@@ -600,4 +657,8 @@ if (track_general) {
 
 window.onload= function(){
     getAllHomepageData();
+}
+
+} catch (error) {
+    
 }

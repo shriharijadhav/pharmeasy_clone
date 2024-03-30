@@ -322,7 +322,9 @@ visibility: hidden!important;
 
   /* hero section slider css ends here */
 
-
+.negativeTopMargin{
+    margin-top: -50px!important;
+}
 
   .labTestMainDiv{
     display: flex;
@@ -731,6 +733,9 @@ visibility: hidden!important;
     /* background-color: yellow; */
     padding: 5px 10px;
     gap: 10px;
+  }
+  .myTextCenter{
+    text-align: center;
   }
   .discount_general{
     font-size: 18px;
