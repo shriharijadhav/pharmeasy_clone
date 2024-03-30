@@ -478,7 +478,11 @@ class PostSlider {
                 this.dots[i].classList.remove('active');
             }
 
+           try {
             this.dots[currentIndex].classList.add('active');
+           } catch (error) {
+            
+           }
 
             this.prevBtn.style.opacity = Math.abs(scrollLeft) < 1 ? '0' : '1'; /*it means there is no element before so it would hide prev button*/
             this.nextBtn.style.opacity = Math.abs(scrollLeft) + 2 >= this.slider.scrollWidth - this.slider.clientWidth ? '0' : '1'; /*it means there is no element after so it would hide next button*/

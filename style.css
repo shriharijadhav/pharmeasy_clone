@@ -752,3 +752,117 @@ visibility: hidden!important;
   /* css for lab test slider ends here */
 
     /* slider of cards with details ends here */
+
+
+    /* purple gradient dive starts */
+
+    .backgroundDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#8a7aeb;
+       width:95%;
+       height: 200px;
+        position:relative;
+        overflow: hidden!important;
+      }
+     
+     .div1 {
+       position: absolute;
+       
+       top: calc(0%);
+       left: calc(100%);
+       
+       border-radius: 10%;
+        box-shadow:
+          0 10px 10px 0px red,
+         0 80px 220px 60px #ff1f66,
+         0 0 240px 200px #6c19bf;
+     }
+     
+     .div2 {
+       position: absolute;
+       top: calc(90%);
+       left: calc(1% );
+       
+       border-radius: 70%;
+        box-shadow:
+            0 10px 10px 0px red,
+         0 80px 190px 70px #f53b76,
+         0 0 240px 200px #6c19bf;
+     }
+     .purpleDiv_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+         width: 30%;
+        height:100%;
+        color: white;
+        z-index: 10;
+
+        gap: 20px;
+        padding: 30px 60px;
+
+        
+     }
+     .bigFont{
+        display: flex;
+        width: 100%;
+        justify-content: baseline;
+        align-items: center;
+        font-size:24px ;
+        gap: 10px;
+      }
+     .purpleDiv_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         width: 40%;
+        height:100%;
+        font-size: 18px;
+        gap: 25px;
+        padding: 60px 60px;
+        color: white;
+        z-index: 10;
+
+     }
+     .purpleDiv_3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         width: 30%;
+        height:100%;
+        position: relative;
+     }
+     .purpleFamily{
+        position: absolute;
+        bottom: 0px;
+       z-index: 10;
+        width: 180px;
+     }
+     .underlineYellow {
+        width: 90%;
+        height: 3px;
+        border-radius: 5px;
+        background: linear-gradient(to right, #F3B02A, transparent);
+      }
+      .purpleMiddleDiv{
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        align-items: baseline;
+        /* padding: 10px 20px; */
+       }
+       .purpleDivBtn{
+        display: flex;
+        justify-content: left;
+        align-items: baseline;
+        padding: 10px 20px;
+        background-color: #F5B326;
+        border-radius: 5px;
+        gap: 5px;
+
+       }
+          /* purple gradient div ends */
