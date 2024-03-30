@@ -4,6 +4,8 @@ let heroSectionSlideshow;
 let labTestSlideshowData;
 let newLaunchData;
 let shopByCategoryData;
+let featuredBrandData;
+let whyChooseUsData;
 
 try {
     
@@ -195,7 +197,7 @@ function showGeneralCardSlider(parentID,data,cardHeight){
 
         // Create elements
         const pTitle = document.createElement('p');
-        pTitle.textContent = item.categoryName;
+        pTitle.textContent = item.categoryName?item.categoryName:item.title;
 
 
 
@@ -217,6 +219,121 @@ function showGeneralCardSlider(parentID,data,cardHeight){
     }
 }
 
+function showFrequentLabTestGrid(parentID,data){
+    if(data.length > 0){
+        const parentDiv = document.getElementById(`${parentID}`);
+
+        data.forEach((item)=>{
+                    
+        // Create grid item element
+        const gridItem = document.createElement('div');
+        gridItem.classList.add('grid-item_F');
+
+        // Create anchor element
+        const anchor = document.createElement('a');
+        anchor.href = './pages/labTest.html';
+        anchor.classList.add('full_anchor');
+
+        // Create discount button element
+        const discountBtn = document.createElement('div');
+        discountBtn.classList.add('f_discountBtn');
+        discountBtn.textContent = `${item.discount}% OFF`;
+        discountBtn.style.backgroundColor = '#F57679';
+        discountBtn.style.marginTop = '10px';
+
+        // Create test name element
+        const testName = document.createElement('div');
+        testName.classList.add('f_testName');
+        testName.textContent = item.title;
+
+        // Create test description element
+        const testDescription = document.createElement('div');
+        testDescription.classList.add('f_testDescription');
+        testDescription.textContent = item.description
+
+        // Create price element
+        const price = document.createElement('div');
+        price.classList.add('f_price');
+        price.textContent = `₹ ${ item.price}`;
+
+        // Create discount element
+        const discount = document.createElement('div');
+        discount.classList.add('f_discount');
+        discount.textContent = `₹ ${(item.price-(item.price*(item.discount/100))).toFixed(2)}`;
+
+        // Create image element
+        const image = document.createElement('img');
+        image.classList.add('f_image');
+        image.src = item.imgUrl;
+        image.alt = '';
+
+        // Append elements to anchor element
+        anchor.appendChild(discountBtn);
+        anchor.appendChild(testName);
+        anchor.appendChild(testDescription);
+        anchor.appendChild(price);
+        anchor.appendChild(discount);
+        anchor.appendChild(image);
+
+        // Append anchor element to grid item element
+        gridItem.appendChild(anchor);
+
+        parentDiv.appendChild(gridItem);
+        });
+        
+        }
+}
+
+function showWhyChooseUseGrid(data){
+    if(data.length>0){
+
+        let parentDiv = document.getElementById("whyChooseDivId");
+
+        data.forEach((item)=>{
+            // Create grid item
+    const gridItem = document.createElement('div');
+    gridItem.classList.add('grid-item-lg');
+
+    // Create image div
+    const imageDiv = document.createElement('div');
+    imageDiv.classList.add('w_imageDiv');
+
+    // Create image element
+    const image = document.createElement('img');
+    image.classList.add('w_image');
+    image.src = item.imgUrl;
+    image.alt = '';
+
+    // Append image to image div
+    imageDiv.appendChild(image);
+
+    // Create content div
+    const contentDiv = document.createElement('div');
+    contentDiv.classList.add('w_content');
+
+    // Create paragraphs
+    const bigFontPara = document.createElement('p');
+    bigFontPara.classList.add('w_bigFont');
+    bigFontPara.textContent = item.title;
+
+    const para = document.createElement('p');
+    para.classList.add('w_para');
+    para.textContent = item.desc;
+
+    // Append paragraphs to content div
+    contentDiv.appendChild(bigFontPara);
+    contentDiv.appendChild(para);
+
+    // Append image div and content div to grid item
+    gridItem.appendChild(imageDiv);
+    gridItem.appendChild(contentDiv);
+
+    // Append grid item to grid container
+    parentDiv.appendChild(gridItem);
+
+        })
+    }
+}
 
 // get data using async & await- recommended approach
 async function getAllHomepageData(){
@@ -241,6 +358,14 @@ async function getAllHomepageData(){
         shopByCategoryData = data.message[0].homPageData.shopByCategory;
         showGeneralCardSlider("shopByCategoryDivID",shopByCategoryData,200);
 
+        frequentLabTest = data.message[0].homPageData.labTests;
+        showFrequentLabTestGrid("labTestGridID",frequentLabTest);
+
+        featuredBrandData = data.message[0].homPageData.featuredBrand;
+        showGeneralCardSlider("featuredBrandDivID",featuredBrandData,200);
+
+        whyChooseUsData = data.message[0].homPageData.whyChooseUsData;
+        showWhyChooseUseGrid(whyChooseUsData);
         
 
 
