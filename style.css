@@ -260,6 +260,9 @@
   nav .big-screens {
     display: none;
   }
+  .navDiv2{
+    display: none !important;
+  }
 }
 
 /* MEDIA QUERIES ENDS*/
