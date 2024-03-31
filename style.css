@@ -1177,3 +1177,72 @@ padding: 10px 0px;
   color: #31373C;
  }
 /* join links ends */
+
+/* footer starts here*/
+
+.footerMain{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEF5FE;
+}
+.footerInner{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 20px 0px;
+
+}
+
+.footer_c1,.footer_c2,.footer_c3,.footer_c4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+  justify-content: center;
+  gap: 15px;
+
+}
+.footer_categoryName{
+  font-size: 20px;
+}
+.footer_c1 ul,
+.footer_c2 ul,
+.footer_c3 ul,
+.footer_c4 ul{
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;  
+}
+.footer_c1 li,
+.footer_c2 li,
+.footer_c3 li,
+.footer_c4 li{
+  list-style: none;
+  
+}
+.footer_c1 a,
+.footer_c2 a,
+.footer_c3 a,
+.footer_c4 a{
+  text-decoration: none;
+  color: black  ;
+}
+.fd_column{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 15px;
+  /* width: 25%; */
+}
+.fc2_one, .fc2_two{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* footer ends here */

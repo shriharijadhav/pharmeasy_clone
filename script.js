@@ -426,7 +426,38 @@ function showJoinLinksSection(parentID, data,spanTagContent){
 
     }
 }
+function showFooterLinks(data){
+        let parentID;
+       if(data.length >0){
+            
+            data.map((item)=>{
 
+                if (item.category === "Company") {
+                    parentID = "f_companyID";
+                } else if(item.category === "Our Services") {
+                    parentID= "f_ourServicesID";
+                }else if(item.category === "Featured Categories") {
+                    parentID = "f_featuredCategoryID";
+                }else if(item.category === "Need Help") {
+                    parentID = "f_needHelpId";
+                }else{
+                    parentID = "f_policyInfoId";
+                }
+                let parentDiv = document.getElementById(`${parentID}`)
+
+                const listItem = document.createElement('li');
+
+            // Create <a> element
+            const anchor = document.createElement('a');
+            anchor.href = "./pages/footerLink.html"; // Set href attribute
+            anchor.textContent = item.title; // Set link text
+
+            // Append <a> element to <li> element
+            listItem.appendChild(anchor);
+            parentDiv.appendChild(listItem);
+            })
+       }
+}
 // get data using async & await- recommended approach
 async function getAllHomepageData(){
     // use try-catch block to avoid runtime errors
@@ -477,6 +508,10 @@ async function getAllHomepageData(){
 
         covid19Data = data.message[0].homPageData.covid19;
         showJoinLinksSection('covid19ID',covid19Data,'COVID-19 Preventatives: ');
+
+
+        footerData = data.message[0].homPageData.footerLinks;
+        showFooterLinks(footerData);
 
 
 
