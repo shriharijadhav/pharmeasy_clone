@@ -391,6 +391,42 @@ function showCustomerFeedbacks(parentID,data) {
     
     }
 }
+
+function showJoinLinksSection(parentID, data,spanTagContent){
+     // Split the string by commas
+    const dataArray = data[0].split(', ');
+    
+     const formattedData = dataArray.join(' | ');
+    console.log(formattedData);
+    if(data.length > 0){
+        let parentDiv = document.getElementById(`${parentID}`);
+
+        const paragraph = document.createElement('p');
+
+            // Create a span element for the header
+            const headerSpan = document.createElement('span');
+            headerSpan.style.fontWeight = '600';
+            headerSpan.style.fontSize = '18px';
+            headerSpan.style.color = 'black';
+            headerSpan.textContent = spanTagContent;
+
+                        // Append the span to the paragraph
+            paragraph.appendChild(headerSpan);
+
+            // Concatenate the test names with ' | ' separator and append to paragraph
+            const bodySpan = document.createElement('span');
+
+            bodySpan.textContent = formattedData;
+
+            paragraph.appendChild(headerSpan);
+            paragraph.appendChild(bodySpan);
+
+            parentDiv.appendChild(paragraph);
+
+
+    }
+}
+
 // get data using async & await- recommended approach
 async function getAllHomepageData(){
     // use try-catch block to avoid runtime errors
@@ -426,8 +462,22 @@ async function getAllHomepageData(){
         customerFeedbackData = data.message[0].homPageData.customerFeedbacks;
         showCustomerFeedbacks("customerFeedbackID",customerFeedbackData);
 
+        testWeCoverData = data.message[0].homPageData.testsWeCover;
+        showJoinLinksSection('testWeCoverID',testWeCoverData,'Top-Tests we cover: ');
 
-        
+        topSellingMedicineData = data.message[0].homPageData.topSellingMedicine;
+        showJoinLinksSection('topSellingMedicineID',topSellingMedicineData,'Top-Selling Medicines: ');
+
+        topSearchedMedicineData = data.message[0].homPageData.topSearchedMedicine;
+        showJoinLinksSection('topSearchedMedicineID',topSearchedMedicineData,'Top-Searched Medicines: ');
+
+        // Top-Selling Healthcare Products COVID-19 Preventatives:
+        topSellingHealthcareProductsData = data.message[0].homPageData.topSellingHealthcareProducts;
+        showJoinLinksSection('topSellingHealthcareProductsID',topSellingHealthcareProductsData,'Top-Selling Healthcare Products: ');
+
+        covid19Data = data.message[0].homPageData.covid19;
+        showJoinLinksSection('covid19ID',covid19Data,'COVID-19 Preventatives: ');
+
 
 
 

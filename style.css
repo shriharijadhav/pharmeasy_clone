@@ -1149,6 +1149,31 @@ padding: 10px 0px;
   border: 1px solid #D7FBF9;
   border-radius: 5px;
   font-size: 18px;
-  color: gray;
+  color: #5C656A;
 }
 /* customer feedback ends */
+
+/* join links starts */
+.joinLinks{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+
+
+}
+.joinDiv{
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  padding: 5px 0px ;
+  color: #31373C;
+ }
+/* join links ends */
