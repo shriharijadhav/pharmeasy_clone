@@ -57,7 +57,6 @@ function showLabTestSlideshow(parentID,data){
         // Loop through the data and create list items dynamically
         data.forEach(item => {
         
-            // console.log(item.imgUrl)
         
             // Create li element
 
@@ -86,7 +85,6 @@ function showLabTestSlideshow(parentID,data){
 }
 
 function showGeneralCardSlider(parentID,data,cardHeight){
-    console.log(data)
     if(data.length > 0){
         // Get the parent ul element
         const parentDiv = document.getElementById(`${parentID}`);
@@ -168,7 +166,6 @@ function showGeneralCardSlider(parentID,data,cardHeight){
                 parentDiv.appendChild(a);
 
             }else{
-         console.log('in else part')              
         const anchorTwo = document.createElement('a');
         anchorTwo.setAttribute('href', './pages/buyproduct.html');
 
@@ -397,7 +394,6 @@ function showJoinLinksSection(parentID, data,spanTagContent){
     const dataArray = data[0].split(', ');
     
      const formattedData = dataArray.join(' | ');
-    console.log(formattedData);
     if(data.length > 0){
         let parentDiv = document.getElementById(`${parentID}`);
 
@@ -464,8 +460,6 @@ async function getAllHomepageData(){
     try {
         const response = await fetch('https://customapis.onrender.com/api/v1/getPharmEasyHomepageData');
         const data = await response.json();
-        console.log(data)
-        // console.log data to check structure of data then assign particular property or whole data to global variables
         heroSectionMenus = data.message[0].homPageData.heroSectionMenus;
         showHeroSectionMenus(heroSectionMenus);
         
@@ -522,7 +516,6 @@ async function getAllHomepageData(){
         return data;
 
     } catch (error) {
-        console.log(error);
     }
 }
 
@@ -590,7 +583,6 @@ class PostSlider {
 
         this.sLiderWidth = this.slider.clientWidth;
         this.oneSLideWidth = this.container.querySelector('.slide:nth-child(2)')?.clientWidth;
-        // console.log(this.oneSLideWidth);
         this.sildesPerPage = Math.trunc(this.sLiderWidth / this.oneSLideWidth);
         this.slideMargin = ((this.sLiderWidth - (this.sildesPerPage * this.oneSLideWidth)) / (this.sildesPerPage * 10)).toFixed(5);
         this.changeSlidesMargins();
@@ -634,7 +626,6 @@ class PostSlider {
 
 
     scrollToPosition(position, smooth =true) {
-        // console.log('Scrolling to position:', position);
         const currentPosition = this.slider.scrollLeft;
         const newPosition = currentPosition + position;
 
@@ -644,7 +635,6 @@ class PostSlider {
             behavior: smooth ? 'smooth' : 'instant'
         });
 
-        // console.log('Current position - New position:', currentPosition - newPosition);
 
         setTimeout(() => {
             this.snapToNearestSlide();
@@ -674,7 +664,6 @@ class PostSlider {
     bindDotClickHandlers() {
         for (let i = 0; i < this.dots.length; i++) {
             this.dots[i].addEventListener('click', () => {
-                // console.log('Dot clicked:', i);
                 this.handleDotClick(i);
             });
         }
@@ -683,7 +672,6 @@ class PostSlider {
 
         const currentPosition = this.slider.scrollLeft;
         const nearestLeftScroll = Math.round(currentPosition / (this.oneSLideWidth+(this.slideMargin*2))) * (this.oneSLideWidth+(this.slideMargin*2));
-        // console.log(nearestLeftScroll);
         this.slider.scrollTo({
             left:  nearestLeftScroll,
             behavior: 'smooth'
@@ -721,7 +709,6 @@ class PostSlider {
                 isDragging = false;
                 const currentPosition = this.slider.scrollLeft;
                 const nearestLeftScroll = Math.round(currentPosition / (this.oneSLideWidth+(this.slideMargin*2))) * (this.oneSLideWidth+(this.slideMargin*2));
-                // console.log(nearestLeftScroll);
                 this.slider.scrollTo({
                     left:  nearestLeftScroll,
                     behavior: 'smooth'
@@ -742,8 +729,6 @@ class PostSlider {
             const scrollLeft = this.slider.scrollLeft;
             const currentIndex = Math.trunc((Math.abs(scrollLeft) + 2) / this.slider.clientWidth);
 
-            // console.log('Scroll Left:', scrollLeft);
-            // console.log('Current Index:', currentIndex);
 
             for (let i = 0; i < this.dots.length; i++) {
                 this.dots[i].classList.remove('active');

@@ -54,6 +54,9 @@
     order: 1;
     font-size: 2rem;
 }
+.logo{
+  display: none !important;
+}
 
 .menu-items li{
     list-style: none;
@@ -74,6 +77,9 @@
 }
 
 @media (max-width: 768px){
+  .logo{
+    display: inline-block!important;
+  }
     .navbar{
         opacity: 0.95;
     }
@@ -243,6 +249,11 @@
 
   .searchInner{
     width: 90%;
+  }
+
+  .hideshow{
+    margin-right: 20px;
+    visibility: none !important;
   }
 }
 
