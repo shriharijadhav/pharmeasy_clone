@@ -1,0 +1,2512 @@
+{
+    "OuterObj":{
+        "status": 1,
+    "data": {
+    "products": [
+    {
+    "productId": 1,
+    "name": "Everherb Karela Jamun Juice - Helps Maintains Healthy Sugar Levels -Helps In Weight Management - 1l",
+    "slug": "everherb-karela-jamun-juice---helps-maintains-healthy-sugar-levels--helps-in-weight-management---1l--501050",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "399.00",
+    "salePriceDecimal": "207.48",
+    "discountDecimal": "191.52",
+    "discountPercent": "48",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1698385993.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.1-1695974059.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.2-1695974041.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.3-1695974019.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.4-1695974083.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.5-1695974084.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.6-1695974019.jpg",
+    "face": "side",
+    "sequence": "6.6"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-6.7-1695974060.jpg",
+    "face": "side",
+    "sequence": "6.7"
+    }
+    ],
+    "labelDetails": {
+    "code": 1,
+    "name": "BEST SELLER"
+    },
+    "ratingDetails": {
+    "count": 1502,
+    "value": 4.108521970705726
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1698385993.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14851401"
+    },
+    {
+    "productId": 2,
+    "name": "Everherb Diabetic Care Juice-13 Potent Herbs - Healthy Blood Sugar Management - 1 Litre Bottle",
+    "slug": "everherb-diabetic-care-juice-11-potent-ingredients--healthy-blood-sugar-management---1-litre-bottle-3046093",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "599.00",
+    "salePriceDecimal": "311.48",
+    "discountDecimal": "287.52",
+    "discountPercent": "48",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-2-1698385586.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.1-1695973171.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.2-1695973156.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.3-1695973129.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.4-1695973197.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.6-1695973197.jpg",
+    "face": "side",
+    "sequence": "6.6"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.7-1695973171.jpg",
+    "face": "side",
+    "sequence": "6.7"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-6.8-1695973156.jpg",
+    "face": "side",
+    "sequence": "6.8"
+    }
+    ],
+    "labelDetails": {
+    "code": 2,
+    "name": "RECOMMENDED"
+    },
+    "ratingDetails": {
+    "count": 940,
+    "value": 4.138297872340425
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/V68813/everherb-diabetic-care-juice-13-potent-herbs-healthy-blood-sugar-management-1-litre-bottle-2-1698385586.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14866390"
+    },
+    {
+    "productId": 3,
+    "name": "Pharmeasy Pill Box Organizer",
+    "slug": "pharmeasy-pill-box-organizer-234116",
+    "manufacturer": "PHARMEASY",
+    "productType": 2,
+    "mrpDecimal": "499.00",
+    "salePriceDecimal": "254.49",
+    "discountDecimal": "244.51",
+    "discountPercent": "49",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K78780/pharmeasy-pill-box-organizer-2-1690272738.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K78780/pharmeasy-pill-box-organizer-6.1-1690272723.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K78780/pharmeasy-pill-box-organizer-6.2-1690272763.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K78780/pharmeasy-pill-box-organizer-6.3-1690272738.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    }
+    ],
+    "labelDetails": {
+    "code": 1,
+    "name": "BEST SELLER"
+    },
+    "ratingDetails": {
+    "count": 736,
+    "value": 3.313858695652174
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/K78780/pharmeasy-pill-box-organizer-2-1690272738.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14780700"
+    },
+    {
+    "productId": 4,
+    "name": "Everherb (By Pharmeasy) Aloe Vera Juice With Pulp - Rejuvenates Skin & Hair - 1 Litre Bottle",
+    "slug": "everherb-aloe-vera-juice-with-pulp---rejuvenates-skin-hair---1-litre-bottle-501051",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "399.00",
+    "salePriceDecimal": "195.51",
+    "discountDecimal": "203.49",
+    "discountPercent": "51",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-2-1680172150.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-6.1-1680172172.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-6.2-1680172235.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-6.3-1680172219.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-6.4-1680172192.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-6.5-1680172235.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-6.6-1680172151.jpg",
+    "face": "side",
+    "sequence": "6.6"
+    }
+    ],
+    "labelDetails": {
+    "code": 5,
+    "name": "ON SALE"
+    },
+    "ratingDetails": {
+    "count": 662,
+    "value": 4.040785498489426
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/E54755/everherb-by-pharmeasy-aloe-vera-juice-with-pulp-rejuvenates-skin-hair-1-litre-bottle-2-1680172150.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14789364"
+    },
+    {
+    "productId": 5,
+    "name": "Liveasy Wellness Calcium Magnesium Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+    "slug": "liveasy-wellness-calcium-magnesium-vitamin-d3-zinc---bones-dental-health---bottle-of-60-tablets-235886",
+    "manufacturer": "LIVEASY",
+    "productType": 2,
+    "mrpDecimal": "599.00",
+    "salePriceDecimal": "347.42",
+    "discountDecimal": "251.58",
+    "discountPercent": "42",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.1-1661760151.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.5-1699510465.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    }
+    ],
+    "labelDetails": {
+    "code": 1,
+    "name": "BEST SELLER"
+    },
+    "ratingDetails": {
+    "count": 492,
+    "value": 4.199186991869919
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14891481"
+    },
+    {
+    "productId": 6,
+    "name": "Everherb (By Pharmeasy) Amla Juice-Rich In Vitamin C-Natural Immunity Booster - 1 Litre Bottle",
+    "slug": "everherb-amla-juice-rich-in-vitamin-c-natural-immunity-booster---1-litre-bottle-501052",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "399.00",
+    "salePriceDecimal": "199.50",
+    "discountDecimal": "199.50",
+    "discountPercent": "50",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-2-1680238204.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-6.1-1680172198.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-6.2-1680172213.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-6.3-1680172296.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-6.4-1680172300.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-6.5-1680172203.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-6.6-1680172114.jpg",
+    "face": "side",
+    "sequence": "6.6"
+    }
+    ],
+    "labelDetails": {
+    "code": 5,
+    "name": "ON SALE"
+    },
+    "ratingDetails": {
+    "count": 466,
+    "value": 4.049356223175966
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-2-1680238204.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14698498"
+    },
+    {
+    "productId": 7,
+    "name": "Pharmeasy Calcium Magnesium Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60",
+    "slug": "pharmeasy-calcium-magnesium-zinc-vitamin-d3---pack-of-60-3491154",
+    "manufacturer": "PHARMEASY",
+    "productType": 2,
+    "mrpDecimal": "499.00",
+    "salePriceDecimal": "279.44",
+    "discountDecimal": "219.56",
+    "discountPercent": "44",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/G67452/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-6.1-1708149179.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/G67452/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-6.2-1708149199.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/G67452/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-6.3-1708149200.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    }
+    ],
+    "labelDetails": null,
+    "ratingDetails": {
+    "count": 204,
+    "value": 4.186274509803922
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/G67452/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-6.1-1708149179.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "15028981"
+    },
+    {
+    "productId": 8,
+    "name": "Liveasy Wellness Multivitamin Multimineral - Immunity Booster - Complete Nutrition - Bottle Of 60",
+    "slug": "liveasy-wellness-multivitamin-multimineral---immunity-booster---complete-nutrition---bottle-of-60-235895",
+    "manufacturer": "LIVEASY",
+    "productType": 2,
+    "mrpDecimal": "699.00",
+    "salePriceDecimal": "384.45",
+    "discountDecimal": "314.55",
+    "discountPercent": "45",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.1-1707825723.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.2-1707825741.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.3-1707817878.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.4-1707817864.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    }
+    ],
+    "labelDetails": {
+    "code": 5,
+    "name": "ON SALE"
+    },
+    "ratingDetails": {
+    "count": 409,
+    "value": 4.224938875305623
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.1-1707825723.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14831886"
+    },
+    {
+    "productId": 9,
+    "name": "Everherb (By Pharmeasy) Pain Relief Oil - Blend Of 8 Powerful Herbal Ingredients - 100 Ml",
+    "slug": "everherb-pain-relief-oil---blend-of-8-powerful-herbal-ingredients---100-ml-501332",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "399.00",
+    "salePriceDecimal": "195.51",
+    "discountDecimal": "203.49",
+    "discountPercent": "51",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K40120/everherb-by-pharmeasy-pain-relief-oil-blend-of-8-powerful-herbal-ingredients-100-ml-2-1698645591.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K40120/everherb-by-pharmeasy-pain-relief-oil-blend-of-8-powerful-herbal-ingredients-100-ml-3-1698645550.jpg",
+    "face": "combo",
+    "sequence": "3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K40120/everherb-by-pharmeasy-pain-relief-oil-blend-of-8-powerful-herbal-ingredients-100-ml-6.1-1698645633.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K40120/everherb-by-pharmeasy-pain-relief-oil-blend-of-8-powerful-herbal-ingredients-100-ml-6.2-1698645610.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/K40120/everherb-by-pharmeasy-pain-relief-oil-blend-of-8-powerful-herbal-ingredients-100-ml-6.3-1698645634.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    }
+    ],
+    "labelDetails": {
+    "code": 1,
+    "name": "BEST SELLER"
+    },
+    "ratingDetails": {
+    "count": 367,
+    "value": 3.923705722070845
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/K40120/everherb-by-pharmeasy-pain-relief-oil-blend-of-8-powerful-herbal-ingredients-100-ml-2-1698645591.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "15022907"
+    },
+    {
+    "productId": 10,
+    "name": "Liveasy Foods Healthy Roasted Seed Mix - Blend Of 6 Fibre Rich Healthy Roasted Seeds - 200 Gms",
+    "slug": "liveasy-foods-healthy-seed-mix-3515408",
+    "manufacturer": "LIVEASY",
+    "productType": 2,
+    "mrpDecimal": "399.00",
+    "salePriceDecimal": "199.50",
+    "discountDecimal": "199.50",
+    "discountPercent": "50",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-2-1656420865.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-3-1656420871.jpg",
+    "face": "combo",
+    "sequence": "3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-6.1-1656420869.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-7-1656420867.jpg",
+    "face": "back",
+    "sequence": "7"
+    }
+    ],
+    "labelDetails": null,
+    "ratingDetails": {
+    "count": 248,
+    "value": 4.201612903225806
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-2-1656420865.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14818431"
+    },
+    {
+    "productId": 11,
+    "name": "Pharmeasy Multivitamin Multimineral - Immunity Booster - Complete Nutrition - Bottle Of 60",
+    "slug": "pharmeasy-multivitamin-multimineral---pack-of-60-3491142",
+    "manufacturer": "PHARMEASY",
+    "productType": 2,
+    "mrpDecimal": "699.00",
+    "salePriceDecimal": "384.45",
+    "discountDecimal": "314.55",
+    "discountPercent": "45",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1698386136.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.1-1698386148.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.2-1698386188.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.3-1698386177.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.4-1698386177.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.5-1699510540.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    }
+    ],
+    "labelDetails": null,
+    "ratingDetails": {
+    "count": 154,
+    "value": 3.909090909090909
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1698386136.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "15017999"
+    },
+    {
+    "productId": 12,
+    "name": "Everherb (By Pharmeasy) Flaxseed Omega 3 - Essential Fatty Acids - Healthy Heart - Bottle Of 60",
+    "slug": "everherb-flaxseed-omega-3---essential-fatty-acids---healthy-heart---bottle-of-60-237191",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "799.00",
+    "salePriceDecimal": "391.51",
+    "discountDecimal": "407.49",
+    "discountPercent": "51",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-2-1698385854.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-6.1-1698385817.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-6.2-1698385778.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-6.3-1698385854.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-6.4-1698385857.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-6.5-1698385812.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    }
+    ],
+    "labelDetails": {
+    "code": 1,
+    "name": "BEST SELLER"
+    },
+    "ratingDetails": {
+    "count": 212,
+    "value": 4.165094339622642
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/D64484/everherb-by-pharmeasy-flaxseed-omega-3-essential-fatty-acids-healthy-heart-bottle-of-60-2-1698385854.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "15208804"
+    },
+    {
+    "productId": 13,
+    "name": "Everherb (By Pharmeasy) Ashwagandha-Immunity Booster Capsules-Anxiety & Stress Relief-Bottle Of 60",
+    "slug": "everherb-ashwagandha---immunity-booster-capsules---anxiety-stress-relief---bottle-of-60-234982",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "599.00",
+    "salePriceDecimal": "299.50",
+    "discountDecimal": "299.50",
+    "discountPercent": "50",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1689585733.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.1-1689585721.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.2-1689585720.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.3-1689585802.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.4-1689585763.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    }
+    ],
+    "labelDetails": {
+    "code": 5,
+    "name": "ON SALE"
+    },
+    "ratingDetails": {
+    "count": 358,
+    "value": 3.958100558659218
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1689585733.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14891459"
+    },
+    {
+    "productId": 14,
+    "name": "Everherb Giloy Tulsi Juice - Strengthens Body Defence System - Natural Immunity Booster - 1 Litre",
+    "slug": "everherb-giloy-tulsi-juice---strengthens-body-defence-system---natural-immunity-booster---1-litre-501053",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "399.00",
+    "salePriceDecimal": "195.51",
+    "discountDecimal": "203.49",
+    "discountPercent": "51",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-2-1680172279.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-6.1-1680172202.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-6.2-1680172208.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-6.3-1680172281.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-6.4-1680172292.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-6.5-1680172155.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-6.6-1680172241.jpg",
+    "face": "side",
+    "sequence": "6.6"
+    }
+    ],
+    "labelDetails": {
+    "code": 5,
+    "name": "ON SALE"
+    },
+    "ratingDetails": {
+    "count": 327,
+    "value": 4.091743119266055
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/U97974/everherb-giloy-tulsi-juice-strengthens-body-defence-system-natural-immunity-booster-1-litre-2-1680172279.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14591067"
+    },
+    {
+    "productId": 15,
+    "name": "Liveasy Foods Healthy Seed Mix - Blend Of 6 Fibre Rich Healthy Seeds - 200 Gms",
+    "slug": "liveasy-foods-healthy-seed-mix--blend-of-6-fibre-rich-healthy-seeds-499566",
+    "manufacturer": "LIVEASY",
+    "productType": 2,
+    "mrpDecimal": "349.00",
+    "salePriceDecimal": "174.50",
+    "discountDecimal": "174.50",
+    "discountPercent": "50",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-3-1656420887.jpg",
+    "face": "combo",
+    "sequence": "3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-6.1-1656420893.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-7-1656420889.jpg",
+    "face": "back",
+    "sequence": "7"
+    }
+    ],
+    "labelDetails": null,
+    "ratingDetails": {
+    "count": 358,
+    "value": 4.120111731843576
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/E34104/liveasy-foods-healthy-seed-mix-blend-of-6-fibre-rich-healthy-seeds-2-1656420891.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14867112"
+    },
+    {
+    "productId": 16,
+    "name": "Pharmeasy Iron+Folic Acid With Zinc, Vitamin C &B12 - Maintains Overall Health - Bottle Of 60",
+    "slug": "pharmeasy-iron-folic-acid-with-zinc-vitamin-c-b12---maintains-overall-health---bottle-of-60-3864226",
+    "manufacturer": "PHARMEASY",
+    "productType": 2,
+    "mrpDecimal": "599.00",
+    "salePriceDecimal": "299.50",
+    "discountDecimal": "299.50",
+    "discountPercent": "50",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O80793/pharmeasy-ironfolic-acid-with-zinc-vitamin-c-b12-maintains-overall-health-bottle-of-60-2-1668672053.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O80793/pharmeasy-ironfolic-acid-with-zinc-vitamin-c-b12-maintains-overall-health-bottle-of-60-6.1-1668672150.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O80793/pharmeasy-ironfolic-acid-with-zinc-vitamin-c-b12-maintains-overall-health-bottle-of-60-6.2-1699510946.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/O80793/pharmeasy-ironfolic-acid-with-zinc-vitamin-c-b12-maintains-overall-health-bottle-of-60-7-1668672050.jpg",
+    "face": "back",
+    "sequence": "7"
+    }
+    ],
+    "labelDetails": null,
+    "ratingDetails": {
+    "count": 36,
+    "value": 4.333333333333333
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/O80793/pharmeasy-ironfolic-acid-with-zinc-vitamin-c-b12-maintains-overall-health-bottle-of-60-2-1668672053.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "15025461"
+    },
+    {
+    "productId": 17,
+    "name": "Everherb (By Pharmeasy) Shilajit 500mg-Vigour Improvement-Strength & Stamina For Men-Bottle Of 60",
+    "slug": "everherb-shilajit-500mg---natural-vigour-improvement-capsules---strength-stamina-for-men---bottle-of-60-234976",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "999.00",
+    "salePriceDecimal": "499.50",
+    "discountDecimal": "499.50",
+    "discountPercent": "50",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/N70299/everherb-by-pharmeasy-shilajit-500mg-vigour-improvement-strength-stamina-for-men-bottle-of-60-6.1-1689585761.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/N70299/everherb-by-pharmeasy-shilajit-500mg-vigour-improvement-strength-stamina-for-men-bottle-of-60-6.2-1689585731.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/N70299/everherb-by-pharmeasy-shilajit-500mg-vigour-improvement-strength-stamina-for-men-bottle-of-60-6.3-1689585678.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/N70299/everherb-by-pharmeasy-shilajit-500mg-vigour-improvement-strength-stamina-for-men-bottle-of-60-6.4-1689585731.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/N70299/everherb-by-pharmeasy-shilajit-500mg-vigour-improvement-strength-stamina-for-men-bottle-of-60-6.5-1689585649.jpg",
+    "face": "side",
+    "sequence": "6.5"
+    }
+    ],
+    "labelDetails": {
+    "code": 2,
+    "name": "RECOMMENDED"
+    },
+    "ratingDetails": {
+    "count": 290,
+    "value": 3.6482758620689655
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/N70299/everherb-by-pharmeasy-shilajit-500mg-vigour-improvement-strength-stamina-for-men-bottle-of-60-6.1-1689585761.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14823810"
+    },
+    {
+    "productId": 18,
+    "name": "Liveasy Wellness Diabetic Protein - Blood Sugar & Weight Management -French Vanilla 400g Jar",
+    "slug": "liveasy-wellness-diabetic-protein---blood-sugar-weight-management--french-vanilla-400g-jar-235531",
+    "manufacturer": "LIVEASY",
+    "productType": 2,
+    "mrpDecimal": "999.00",
+    "salePriceDecimal": "539.46",
+    "discountDecimal": "459.54",
+    "discountPercent": "46",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-2-1698385317.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-6.1-1650541345.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-6.2-1650541349.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-6.3-1684829814.jpg",
+    "face": "side",
+    "sequence": "6.3"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-6.4-1650541343.jpg",
+    "face": "side",
+    "sequence": "6.4"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-7-1684829814.jpg",
+    "face": "back",
+    "sequence": "7"
+    }
+    ],
+    "labelDetails": {
+    "code": 2,
+    "name": "RECOMMENDED"
+    },
+    "ratingDetails": {
+    "count": 399,
+    "value": 4.140350877192983
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-2-1698385317.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14877602"
+    },
+    {
+    "productId": 19,
+    "name": "Everherb Pharmeasy Moringa (Drum Stick) Immunity Booster Capsules Natural Multivitamin Bottle Of 60",
+    "slug": "everherb-moringa-drum-stick---immunity-booster-capsules---natural-multivitamin---bottle-of-60-234981",
+    "manufacturer": "EVERHERB",
+    "productType": 2,
+    "mrpDecimal": "599.00",
+    "salePriceDecimal": "275.54",
+    "discountDecimal": "323.46",
+    "discountPercent": "54",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/H62199/everherb-pharmeasy-moringa-drum-stick-immunity-booster-capsules-natural-multivitamin-bottle-of-60-2-1687237313.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/H62199/everherb-pharmeasy-moringa-drum-stick-immunity-booster-capsules-natural-multivitamin-bottle-of-60-6.1-1687237315.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/H62199/everherb-pharmeasy-moringa-drum-stick-immunity-booster-capsules-natural-multivitamin-bottle-of-60-6.2-1687237317.jpg",
+    "face": "side",
+    "sequence": "6.2"
+    }
+    ],
+    "labelDetails": null,
+    "ratingDetails": {
+    "count": 159,
+    "value": 3.9245283018867925
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/H62199/everherb-pharmeasy-moringa-drum-stick-immunity-booster-capsules-natural-multivitamin-bottle-of-60-2-1687237313.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "14927809"
+    },
+    {
+    "productId": 20,
+    "name": "Pharmeasy Biotin 10000mcg - For Hair, Skin & Nails - Bottle Of 60",
+    "slug": "pharmeasy-biotin---pack-of-60-3491155",
+    "manufacturer": "PHARMEASY",
+    "productType": 2,
+    "mrpDecimal": "699.00",
+    "salePriceDecimal": "384.45",
+    "discountDecimal": "314.55",
+    "discountPercent": "45",
+    "categoryId": null,
+    "damImages": [
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-2-1676757633.jpg",
+    "face": "front",
+    "sequence": "2"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-6.1-1676757633.jpg",
+    "face": "side",
+    "sequence": "6.1"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-7-1676757634.jpg",
+    "face": "back",
+    "sequence": "7"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-10-1676757634.jpg",
+    "face": "offer-front",
+    "sequence": "10"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-11-1676757628.jpg",
+    "face": "offer-back",
+    "sequence": "11"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-12-1676757634.jpg",
+    "face": "instruction",
+    "sequence": "12"
+    },
+    {
+    "url": "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-13-1676757632.jpg",
+    "face": "misc",
+    "sequence": "13"
+    }
+    ],
+    "labelDetails": {
+    "code": 1,
+    "name": "BEST SELLER"
+    },
+    "ratingDetails": {
+    "count": 67,
+    "value": 3.5970149253731343
+    },
+    "productTierAttributes": {
+    "type": 5,
+    "text": "Guaranteed Delivery"
+    },
+    "productSubstitutionAttributes": null,
+    "productAvailabilityFlags": {
+    "isAvailable": true,
+    "showVariantsInBottomSheet": true,
+    "notifyMe": false
+    },
+    "maxQuantity": 20,
+    "productVolume": 0,
+    "similarProductsAttributes": null,
+    "minQuantity": 1,
+    "isAvailable": true,
+    "images": [
+    "https://cdn01.pharmeasy.in/dam/products_otc/D18575/pharmeasy-biotin-10000mcg-for-hair-skin-nails-bottle-of-60-2-1676757633.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+    ],
+    "listingId": "15204708"
+    },
+    {
+        "productId": 21,
+        "name": "Liveasy Ortho Care Cool Eye Mask - Provides Relief To Stressed & Dry Eyes - Reduces Dark Circles",
+        "slug": "liveasy-ortho-care-cool-eye-mask-3574234",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "120.00",
+        "salePriceDecimal": "102.00",
+        "discountDecimal": "18.00",
+        "discountPercent": "15",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H28446/liveasy-ortho-care-cool-eye-mask-provides-relief-to-stressed-dry-eyes-reduces-dark-circles-2-1671742979.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H28446/liveasy-ortho-care-cool-eye-mask-provides-relief-to-stressed-dry-eyes-reduces-dark-circles-6.1-1671742977.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H28446/liveasy-ortho-care-cool-eye-mask-provides-relief-to-stressed-dry-eyes-reduces-dark-circles-7-1671742976.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 67,
+        "value": 3.537313432835821
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/H28446/liveasy-ortho-care-cool-eye-mask-provides-relief-to-stressed-dry-eyes-reduces-dark-circles-2-1671742979.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "15131948"
+        },
+        {
+        "productId": 22,
+        "name": "Liveasy Wellness Pain Relief Balm 45gm",
+        "slug": "liveasy-essential-pain-reliefbalm-3489646",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "115.00",
+        "salePriceDecimal": "109.25",
+        "discountDecimal": "5.75",
+        "discountPercent": "5",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/C93509/liveasy-essential-pain-relief-balm-45gm-2-1659963202.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/C93509/liveasy-essential-pain-relief-balm-45gm-6.1-1659963200.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/C93509/liveasy-essential-pain-relief-balm-45gm-7-1659963198.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 91,
+        "value": 4.1098901098901095
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/C93509/liveasy-essential-pain-relief-balm-45gm-2-1659963202.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14761853"
+        },
+        {
+        "productId": 23,
+        "name": "Liveasy Essentials Adhesive Bandages - Box Of 100",
+        "slug": "liveasy-essentials-adhesive-bandages---box-of-100-3068258",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "199.00",
+        "salePriceDecimal": "169.15",
+        "discountDecimal": "29.85",
+        "discountPercent": "15",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/G19614/liveasy-essentials-adhesive-bandages-box-of-100-1-1641791579.jpg",
+        "face": "box-front",
+        "sequence": "1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/G19614/liveasy-essentials-adhesive-bandages-box-of-100-2-1641791583.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/G19614/liveasy-essentials-adhesive-bandages-box-of-100-3-1641791587.jpg",
+        "face": "combo",
+        "sequence": "3"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 36,
+        "value": 4.027777777777778
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/G19614/liveasy-essentials-adhesive-bandages-box-of-100-1-1641791579.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14841015"
+        },
+        {
+        "productId": 24,
+        "name": "Everherb (By Pharmeasy) Ashwagandha-Immunity Booster Capsules-Anxiety & Stress Relief - Bottle Of 90",
+        "slug": "everherb-aswagandha-90-caps-3521591",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "799.00",
+        "salePriceDecimal": "407.49",
+        "discountDecimal": "391.51",
+        "discountPercent": "49",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/P54860/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-90-2-1689585851.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/P54860/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-90-6.1-1689585812.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/P54860/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-90-6.2-1689585802.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/P54860/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-90-6.3-1689585841.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/P54860/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-90-6.4-1689585812.jpg",
+        "face": "side",
+        "sequence": "6.4"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 100,
+        "value": 4.08
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/P54860/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-90-2-1689585851.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "15217588"
+        },
+        {
+        "productId": 25,
+        "name": "Liveasy Wellness Anti Fungal Dusting Powder 100gm",
+        "slug": "liveasy-wellness-dusting-powder-3555033",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "90.00",
+        "salePriceDecimal": "83.70",
+        "discountDecimal": "6.30",
+        "discountPercent": "7",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65262/liveasy-wellness-anti-fungal-dusting-powder-100gm-6.1-1695722171.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65262/liveasy-wellness-anti-fungal-dusting-powder-100gm-6.2-1695722132.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65262/liveasy-wellness-anti-fungal-dusting-powder-100gm-6.3-1695722134.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 53,
+        "value": 3.9622641509433962
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/X65262/liveasy-wellness-anti-fungal-dusting-powder-100gm-6.1-1695722171.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14922322"
+        },
+        {
+        "productId": 26,
+        "name": "Everherb Diabetic Care Juice-13 Potent Ingredients -Healthy Blood Sugar Management - 500 Ml Bottle",
+        "slug": "everherb-diabetic-care-juice-13-potent-ingredients--healthy-blood-sugar-management---500-ml-bottle-4069006",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "299.00",
+        "salePriceDecimal": "149.50",
+        "discountDecimal": "149.50",
+        "discountPercent": "50",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-2-1698903599.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-6.1-1698903519.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-6.2-1698903532.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-6.3-1698903560.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-6.4-1698903656.jpg",
+        "face": "side",
+        "sequence": "6.4"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-6.5-1698903574.jpg",
+        "face": "side",
+        "sequence": "6.5"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-6.6-1698903656.jpg",
+        "face": "side",
+        "sequence": "6.6"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 6,
+        "value": 3.1666666666666665
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/H29530/everherb-diabetic-care-juice-13-potent-ingredients-healthy-blood-sugar-management-500-ml-bottle-2-1698903599.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "19095938"
+        },
+        {
+        "productId": 27,
+        "name": "Everherb (By Pharmeasy) Karela - Blood Sugar Control - Lowers Bad Cholestrol - Bottle Of 60",
+        "slug": "everherb-karela---blood-sugar-control---lowers-bad-cholestrol---bottle-of-60-237412",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "599.00",
+        "salePriceDecimal": "305.49",
+        "discountDecimal": "293.51",
+        "discountPercent": "49",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B55847/everherb-by-pharmeasy-karela-blood-sugar-control-lowers-bad-cholestrol-bottle-of-60-2-1661760071.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B55847/everherb-by-pharmeasy-karela-blood-sugar-control-lowers-bad-cholestrol-bottle-of-60-6.1-1661760129.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B55847/everherb-by-pharmeasy-karela-blood-sugar-control-lowers-bad-cholestrol-bottle-of-60-6.2-1661760099.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        }
+        ],
+        "labelDetails": {
+        "code": 3,
+        "name": "FEATURED"
+        },
+        "ratingDetails": {
+        "count": 141,
+        "value": 4.049645390070922
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/B55847/everherb-by-pharmeasy-karela-blood-sugar-control-lowers-bad-cholestrol-bottle-of-60-2-1661760071.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "15200033"
+        },
+        {
+        "productId": 28,
+        "name": "Everherb (By Pharmeasy) Neem - Immunity Booster - Hair & Skin Detoxifier - Bottle Of 60",
+        "slug": "everherb-neem---immunity-booster---skin-body-detoxifier---bottle-of-60-237410",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "599.00",
+        "salePriceDecimal": "311.48",
+        "discountDecimal": "287.52",
+        "discountPercent": "48",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/D41806/everherb-by-pharmeasy-neem-immunity-booster-hair-skin-detoxifier-bottle-of-60-2-1672128436.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/D41806/everherb-by-pharmeasy-neem-immunity-booster-hair-skin-detoxifier-bottle-of-60-6.1-1672128434.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/D41806/everherb-by-pharmeasy-neem-immunity-booster-hair-skin-detoxifier-bottle-of-60-6.2-1672128440.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/D41806/everherb-by-pharmeasy-neem-immunity-booster-hair-skin-detoxifier-bottle-of-60-6.3-1672128438.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/D41806/everherb-by-pharmeasy-neem-immunity-booster-hair-skin-detoxifier-bottle-of-60-6.4-1672128432.jpg",
+        "face": "side",
+        "sequence": "6.4"
+        }
+        ],
+        "labelDetails": {
+        "code": 3,
+        "name": "FEATURED"
+        },
+        "ratingDetails": {
+        "count": 121,
+        "value": 3.809917355371901
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/D41806/everherb-by-pharmeasy-neem-immunity-booster-hair-skin-detoxifier-bottle-of-60-2-1672128436.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "15100786"
+        },
+        {
+        "productId": 29,
+        "name": "Liveasy Essentials Bamboo Cotton Buds - 80 Sticks/160 Swabs",
+        "slug": "liveasy-essentials-bamboo-cotton-swabs-3110917",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "65.00",
+        "salePriceDecimal": "61.75",
+        "discountDecimal": "3.25",
+        "discountPercent": "5",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/A65047/liveasy-essentials-bamboo-cotton-buds-80-sticks-160-swabs-1-1705999231.jpg",
+        "face": "box-front",
+        "sequence": "1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/A65047/liveasy-essentials-bamboo-cotton-buds-80-sticks-160-swabs-3-1705999227.jpg",
+        "face": "combo",
+        "sequence": "3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/A65047/liveasy-essentials-bamboo-cotton-buds-80-sticks-160-swabs-4-1705999229.jpg",
+        "face": "box-back",
+        "sequence": "4"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 142,
+        "value": 3.5422535211267605
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/A65047/liveasy-essentials-bamboo-cotton-buds-80-sticks-160-swabs-1-1705999231.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14727919"
+        },
+        {
+        "productId": 30,
+        "name": "Pharmeasy Joint Support - Maintains Joints Mobility - Bone & Joint Health - Bottle Of 60",
+        "slug": "pharmeasy-joint-support---maintains-joints-mobility---bone-joint-health---bottle-of-60-3864230",
+        "manufacturer": "PHARMEASY",
+        "productType": 2,
+        "mrpDecimal": "799.00",
+        "salePriceDecimal": "399.50",
+        "discountDecimal": "399.50",
+        "discountPercent": "50",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B19345/pharmeasy-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-2-1698644927.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B19345/pharmeasy-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-6.1-1698644967.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B19345/pharmeasy-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-6.2-1698644943.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B19345/pharmeasy-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-6.3-1698644983.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/B19345/pharmeasy-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-6.4-1699510654.jpg",
+        "face": "side",
+        "sequence": "6.4"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 45,
+        "value": 3.488888888888889
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/B19345/pharmeasy-joint-support-maintains-joints-mobility-bone-joint-health-bottle-of-60-2-1698644927.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "15048134"
+        },
+        {
+        "productId": 31,
+        "name": "Everherb (By Pharmeasy) Men'S Formula-Blend Of Powerful Herb-Increase Sperm Count-Bottle Of 60",
+        "slug": "everherb-men-s-formula---blend-of-6-safe-powerful-herb---increase-sperm-count---bottle-of-60-234977",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "999.00",
+        "salePriceDecimal": "499.50",
+        "discountDecimal": "499.50",
+        "discountPercent": "50",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-2-1689582878.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-6.1-1689582869.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-6.2-1689582920.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-6.3-1689582949.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-6.4-1689582870.jpg",
+        "face": "side",
+        "sequence": "6.4"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-6.5-1689582920.jpg",
+        "face": "side",
+        "sequence": "6.5"
+        }
+        ],
+        "labelDetails": {
+        "code": 2,
+        "name": "RECOMMENDED"
+        },
+        "ratingDetails": {
+        "count": 166,
+        "value": 3.6265060240963853
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/N51273/everherb-by-pharmeasy-mens-formula-blend-of-powerful-herb-increase-sperm-count-bottle-of-60-2-1689582878.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14876817"
+        },
+        {
+        "productId": 32,
+        "name": "Liveasy Wellness Diabetic Protein Powder Chocolate Flavour 400g",
+        "slug": "liveasy-wellness-diabetic-protein-powder-chocolate-flavour-400g-3580866",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "999.00",
+        "salePriceDecimal": "539.46",
+        "discountDecimal": "459.54",
+        "discountPercent": "46",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H14523/liveasy-wellness-diabetic-protein-powder-chocolate-flavour-400g-2-1671742949.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H14523/liveasy-wellness-diabetic-protein-powder-chocolate-flavour-400g-6.1-1671742947.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/H14523/liveasy-wellness-diabetic-protein-powder-chocolate-flavour-400g-7-1671742945.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 121,
+        "value": 4.24793388429752
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/H14523/liveasy-wellness-diabetic-protein-powder-chocolate-flavour-400g-2-1671742949.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14719330"
+        },
+        {
+        "productId": 33,
+        "name": "Liveasy Essentials Cleansing Aloe Vera Refreshing Lime Facial Wipes 20'S",
+        "slug": "liveasy-essentials-aloe-vera-refreshing-and-cleansing-face-wipes-20-s-3624537",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "69.00",
+        "salePriceDecimal": "62.10",
+        "discountDecimal": "6.90",
+        "discountPercent": "10",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-cleansing-aloe-vera-refreshing-lime-facial-wipes-20s-2-1697177802.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-cleansing-aloe-vera-refreshing-lime-facial-wipes-20s-6.1-1697177806.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-cleansing-aloe-vera-refreshing-lime-facial-wipes-20s-7-1697177804.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 25,
+        "value": 4.4
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/N65859/liveasy-essentials-cleansing-aloe-vera-refreshing-lime-facial-wipes-20s-2-1697177802.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14958587"
+        },
+        {
+        "productId": 34,
+        "name": "Liveasy Wellness Pain Relief Gel Tube Of 30 G",
+        "slug": "liveasy-wellness-pain-relief-gel-3624650",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "99.00",
+        "salePriceDecimal": "94.05",
+        "discountDecimal": "4.95",
+        "discountPercent": "5",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/A25289/liveasy-wellness-pain-relief-gel-tube-of-30-g-1-1659962889.jpg",
+        "face": "box-front",
+        "sequence": "1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/A25289/liveasy-wellness-pain-relief-gel-tube-of-30-g-2-1659962891.jpg",
+        "face": "front",
+        "sequence": "2"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 40,
+        "value": 3.8
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/A25289/liveasy-wellness-pain-relief-gel-tube-of-30-g-1-1659962889.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14971208"
+        },
+        {
+        "productId": 35,
+        "name": "Everherb (By Pharmeasy) Diabetic Care - Bottle Of 60",
+        "slug": "everherb-diabetic-care---7-specially-researched-ayurvedic-herbs---blood-sugar-control---bottle-of-60-235318",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "999.00",
+        "salePriceDecimal": "509.49",
+        "discountDecimal": "489.51",
+        "discountPercent": "49",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/F14789/everherb-by-pharmeasy-diabetic-care-blood-sugar-control-bottle-of-60-2-1654169505.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/F14789/everherb-diabetic-care-blood-sugar-control-bottle-of-60-6.1-1641788921.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/F14789/everherb-diabetic-care-blood-sugar-control-bottle-of-60-6.2-1641788923.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/F14789/everherb-diabetic-care-blood-sugar-control-bottle-of-60-6.3-1641788926.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        }
+        ],
+        "labelDetails": {
+        "code": 5,
+        "name": "ON SALE"
+        },
+        "ratingDetails": {
+        "count": 165,
+        "value": 4.115151515151515
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/F14789/everherb-by-pharmeasy-diabetic-care-blood-sugar-control-bottle-of-60-2-1654169505.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14929678"
+        },
+        {
+        "productId": 36,
+        "name": "Pharmeasy Orthopaedic Electric Heat Belt Regular",
+        "slug": "pharmeasy-orthopaedic-electric-heat-belt-regular-3134595",
+        "manufacturer": "PHARMEASY",
+        "productType": 2,
+        "mrpDecimal": "949.00",
+        "salePriceDecimal": "569.40",
+        "discountDecimal": "379.60",
+        "discountPercent": "40",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-2-1671742418.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-3-1671742416.jpg",
+        "face": "combo",
+        "sequence": "3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-6.1-1671742407.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-6.2-1671742413.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-7-1671742410.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": {
+        "code": 5,
+        "name": "ON SALE"
+        },
+        "ratingDetails": {
+        "count": 84,
+        "value": 3.4404761904761907
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-2-1671742418.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "15048812"
+        },
+        {
+        "productId": 37,
+        "name": "Pharmeasy Multivitamin Women - Overall Women Wellness - Builds Immunity - Bottle Of 60",
+        "slug": "pharmeasy-multivitamin-women---bottle-of-60-3662202",
+        "manufacturer": "PHARMEASY",
+        "productType": 2,
+        "mrpDecimal": "799.00",
+        "salePriceDecimal": "407.49",
+        "discountDecimal": "391.51",
+        "discountPercent": "49",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-overall-women-wellness-builds-immunity-bottle-of-60-2-1675775228.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-overall-women-wellness-builds-immunity-bottle-of-60-6.1-1675775237.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-overall-women-wellness-builds-immunity-bottle-of-60-6.2-1675775228.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-overall-women-wellness-builds-immunity-bottle-of-60-6.3-1699510424.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 19,
+        "value": 4.421052631578948
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/R76285/pharmeasy-multivitamin-women-overall-women-wellness-builds-immunity-bottle-of-60-2-1675775228.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14710738"
+        },
+        {
+        "productId": 38,
+        "name": "Pharmeasy Calcium Magnesium Vitamin D3 & Zinc - Bones & Dental Health - Bottle 120",
+        "slug": "pharmeasy-calcium-magnesium-zinc-vitamin-d3---pack-of-120-3491152",
+        "manufacturer": "PHARMEASY",
+        "productType": 2,
+        "mrpDecimal": "899.00",
+        "salePriceDecimal": "539.40",
+        "discountDecimal": "359.60",
+        "discountPercent": "40",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q97636/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-120-2-1698645746.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q97636/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-120-6.1-1698645772.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q97636/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-120-6.3-1699510298.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q97636/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-120-7-1671743163.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 69,
+        "value": 4.173913043478261
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/Q97636/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-120-2-1698645746.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14734805"
+        },
+        {
+        "productId": 39,
+        "name": "Pharmeasy Multivitamin Gummies For Kids And Adults Lemon & Strawberry Flavour Bottle Of 30 Gummies",
+        "slug": "pharmeasy-multivitamin-gummies-3626268",
+        "manufacturer": "PHARMEASY",
+        "productType": 2,
+        "mrpDecimal": "499.00",
+        "salePriceDecimal": "249.50",
+        "discountDecimal": "249.50",
+        "discountPercent": "50",
+        "categoryId": null,
+        "damImages": [
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-2-1671743494.jpg",
+        "face": "front",
+        "sequence": "2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.1-1671743491.jpg",
+        "face": "side",
+        "sequence": "6.1"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.2-1671743489.jpg",
+        "face": "side",
+        "sequence": "6.2"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.3-1671743500.jpg",
+        "face": "side",
+        "sequence": "6.3"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.4-1671743503.jpg",
+        "face": "side",
+        "sequence": "6.4"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.5-1671743492.jpg",
+        "face": "side",
+        "sequence": "6.5"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.6-1671743505.jpg",
+        "face": "side",
+        "sequence": "6.6"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.7-1671743498.jpg",
+        "face": "side",
+        "sequence": "6.7"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.8-1671743485.jpg",
+        "face": "side",
+        "sequence": "6.8"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-6.9-1671743487.jpg",
+        "face": "side",
+        "sequence": "6.9"
+        },
+        {
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-7-1671743496.jpg",
+        "face": "back",
+        "sequence": "7"
+        }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+        "count": 47,
+        "value": 4
+        },
+        "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": true,
+        "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "minQuantity": 1,
+        "isAvailable": true,
+        "images": [
+        "https://cdn01.pharmeasy.in/dam/products_otc/E54733/pharmeasy-multivitamin-gummies-for-kids-and-adults-healthy-growth-immunity-bottle-of-30-2-1671743494.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ],
+        "listingId": "14977192"
+        }
+    ],
+    "meta": {
+    "sort": {
+    "attrName": "popularity",
+    "direction": "DESC"
+    },
+    "locationType": "ZONE"
+    },
+    "queryParams": {
+    "page": "1",
+    "perPage": 20,
+    "city": "1",
+    "platform": "web",
+    "appVersion": "2.2",
+    "subCategoryId": null,
+    "categoryId": "9297",
+    "sort": null,
+    "direction": null,
+    "brandIds": [],
+    "priceBuckets": [],
+    "discount": null,
+    "purpose": [],
+    "productType": [],
+    "pincode": "400001"
+    }
+    }
+    }    
+}

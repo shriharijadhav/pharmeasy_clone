@@ -1,0 +1,106 @@
+.buyproduct_herosection_container{
+    /* display: flex; */
+    margin-top: -10px;
+    width: 80%;
+    padding-bottom: 0px!important;
+}
+
+.gridContainer_for_all_category{
+    margin-top: -20px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 70%;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridItem_for_all_category{
+    text-align: center;
+    border-radius: 5px;
+    width: 350px;
+    height: 120px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+
+    display: flex;
+    padding: 5px 5px;
+}
+.gridItem_for_all_category:hover{
+    box-shadow: 0 0 5px 2px #11847F;
+}
+.g_div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+.g_div2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.g_div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    color: #11847F;
+}
+.g_div_img{
+    width: 90%;
+}
+.g_anchorDiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.textDiv_buyProductHomepage{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px 0px;
+    gap: 20px;
+}
+.textDiv_buyProductHomepage_subDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.boldText_BPH{
+    font-size: 18px;
+    font-weight: 600;
+}
+.textDiv_buyProductHomepage_subDiv ul{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.textDiv_buyProductHomepage_subDiv ul li::marker {
+   padding: 5px 0px;
+    color: #3AB996; /* Change the color of the bullet points */
+  }
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
