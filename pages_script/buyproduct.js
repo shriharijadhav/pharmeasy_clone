@@ -1,13 +1,43 @@
 let allProductsData;
 let cart = JSON.parse(localStorage.getItem('pharmEasyCart'))?JSON.parse(localStorage.getItem('pharmEasyCart')): [];
+let pageCounter =1;
+let itemNotFoundInCart = true;
 
+
+
+function updateLocalCart(updatedCart) {
+    localStorage.setItem('pharmEasyCart',JSON.stringify(updatedCart));
+}
 
 function addItemToCart(productId){
+    console.log(productId,'clicked');
 
-    allProductsData.map((item) =>{
-        if(item.productId === productId){
-            item.productId = productId;
-        console.log('item found',item);
+    // make itemNotFoundInCart true before start of process
+    itemNotFoundInCart = true;
+
+    allProductsData.map((element) =>{
+        if(element.productId === productId){
+            element.quantity = 1;
+
+            // check if item is already in cart
+            cart.map((cartItem) =>{
+                if(cartItem.productId === productId){
+                    console.log('found in cart', cartItem.productId, 'quantity has been increased');
+                    cartItem.quantity = cartItem.quantity + 1;
+
+                    // set flag false if item is found in cart
+                    itemNotFoundInCart = false;
+                }
+            });
+
+            if(itemNotFoundInCart){
+                console.log('not found in cart',element.productId, 'added to cart');
+                cart.push(element);
+            }
+
+            
+           
+            updateLocalCart(cart);
         }
         
     })
@@ -118,7 +148,7 @@ async function  getAllProductPageData(){
     try {
         const response = await fetch('https://customapis.onrender.com/api/v1/getAllProductsData');
         const data = await response.json();
-        // console.log(data.message[0].OuterObj.data.products);
+        console.log(data.message[0].OuterObj.data.products);
 
         allProductsData = data.message[0].OuterObj.data.products;
         showAllProductsData('allProductsGridID',allProductsData);
@@ -142,20 +172,88 @@ async function getAllHomepageData(){
         const data = await response.json();
 
         footerData = data.message[0].homPageData.footerLinks;
+
         showFooterLinks(footerData);
         
     } catch (error) {
     }
 }
 
+function handleScroll() {
+    const scrollHeight = container.scrollHeight;
+    const scrollTop = container.scrollTop;
+    const clientHeight = container.clientHeight;
+  
+    console.log(scrollHeight + " " + scrollTop + " "+ clientHeight);
+    if (scrollTop + clientHeight >= scrollHeight) {
+      // User has reached the bottom of the div
+      // Perform your action here, such as fetching more data
+      console.log("reached bottom of div");
+    }
+  }
+
+
+//   async function getNextSetOfData(pageCounter){
+//     // use try-catch block to avoid runtime errors
+//     try {
+//         const response = await fetch(`https://pharmeasy.in/api/otc/getCategoryProducts?categoryId=9297&page=${pageCounter}`);
+//         const data = await response.json();
+
+//         console.log('object', data);
+        
+//     } catch (error) {
+//     }
+// }
+
+// // Debounce function
+// function debounce(func, delay) {
+//     let timeoutId;
+//     return function(...args) {
+//         clearTimeout(timeoutId);
+//         timeoutId = setTimeout(() => {
+//             func.apply(this, args);
+//         }, delay);
+//     };
+// }
+
+// // Function to make network request
+// function fetchData() {
+//     // Replace this with your actual API endpoint and request logic
+//     fetch(`https://pharmeasy.in/api/otc/getCategoryProducts?categoryId=9297&page=${pageCounter}`)
+//         .then(response => response.json())
+//         .then(data => {
+//             // Handle fetched data
+//             console.log('Fetched data:', data);
+//         })
+//         .catch(error => {
+//             console.error('Error fetching data:', error);
+//         });
+        
+// }
+
+
+
 window.addEventListener('load',function (){
     
 
     getAllProductPageData();
-
     // for footer
     getAllHomepageData();
 
+
+//   // Scroll event handler with debouncing
+// document.addEventListener('scroll', debounce(function() {
+//     const { scrollTop, clientHeight, scrollHeight } = document.documentElement;
+//     if (scrollTop + clientHeight >= scrollHeight - 100) {
+//         // User has scrolled to the bottom, fetch more data
+//         fetchData();
+//     }
+// }, 300)); // Adjust debounce delay as needed
+
 })
+
+
+
+
 
 // js for slider ends- hero section

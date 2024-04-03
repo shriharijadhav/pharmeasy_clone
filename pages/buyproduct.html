@@ -70,15 +70,27 @@
             
         </nav>
         <!-- navbar ends here -->
-       <div class="mainDiv">
+       <div class="mainDiv" id="mainDivId">
 
         <div class="allProductsDiv">
            <div class="filtersDiv">
-            kkjk
+                <p class="veryBigFont">Filter</p>
            </div>
             <div class="rightDiv">
-                <div class="topDiv_in_rightDiv">One</div>
-                <div class="allProductsGrid" id="allProductsGridID">
+                <div class="topDiv_in_rightDiv">
+                    <p class="veryBigFont">All Products</p>
+
+                    <div class="topDiv_in_rightDiv_subDiv">
+                        <p>Sort by:</p>
+                        <select name="sortSelect" id="sortSelectID">
+                            <option value="default">Default</option>
+                            <option value="price_low_to_high">Price Low to High</option>
+                            <option value="price_high_to_low">Price High to Low</option>
+                            <option value="discount_high_to_low">Discount</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="allProductsGrid" id="allProductsGridID" >
                     <!-- <div class="allProductsGrid_item">
                       <img class="BPG_img" src="https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1698385993.jpg" alt="">
                       <p class="BPG_title">Everherb Karela Jamun Juice - Helps Main...</p>

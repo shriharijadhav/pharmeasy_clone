@@ -1,15 +1,18 @@
 .allProductsDiv{
     display: flex;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
+    width: 70%;
+    justify-content: start;
+    align-items: start;
     /* background-color: aquamarine; */
 }
 .filtersDiv{
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start!important;
     width: 30%;
-    height: 100px;
+    /* height: 100px; */
+    background-color: rebeccapurple;
 }
 .rightDiv{
     display: flex;
@@ -22,8 +25,20 @@
 .topDiv_in_rightDiv{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 10px;
+}
+.topDiv_in_rightDiv select{
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.topDiv_in_rightDiv_subDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 .allProductsGrid{
     display: grid;
@@ -108,7 +123,10 @@
 .BPG_OriginalPrice{
     color: gray;
 }
-
+.veryBigFont{
+    font-size: 28px;
+    font-weight: 600;
+}
   @media screen and (max-width: 768px) {
     .allProductsGrid {
       grid-template-columns: repeat(2, 1fr);
