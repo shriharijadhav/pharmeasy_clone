@@ -1,0 +1,301 @@
+.linkToHomeDiv{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: left;
+    padding: 10px 10px ;
+    gap: 5px;
+    font-size:18px;
+
+}
+.linkToHomeDiv a{
+    text-decoration: none;
+    color: #10847E;
+}
+
+.cartGreenColorText{
+    color: #10847E;  
+}
+.cartMainDiv{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 90%;
+    /* background-color: aqua; */
+    gap: 20px;
+    padding: 30px 0px;
+}
+.cartDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    /* background-color: rebeccapurple; */
+    border: 1px solid #E7EBF5;
+    border-radius: 10px;
+    height: max-content;
+}
+.leftSideCartUIDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    height: max-content;
+}
+
+.headerForCart{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+} 
+.borderBottomDiv{
+    border-bottom: 1px solid #E7EBF5;
+}
+.largeF{
+    font-size: 22px;
+    font-weight: 600;
+}
+.deliveryDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.d_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.emptyCartDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 20px;
+
+}
+
+.billingMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border-radius: 10px;
+    height: max-content;
+    gap: 20px;
+
+} 
+.billingMainDiv_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #E7EBF5;
+    border-radius: 10px;
+    height: max-content;
+} 
+
+.billingMainDiv_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #E7EBF5;
+    border-radius: 10px;
+    height: max-content;
+}
+.mediumF{
+    font-size: 20px;
+}
+.CartBillDiv{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.proceedToCheckOutDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+#proceedToCheckOutBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D6DFE4;
+    color: #6F787F;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hiddenDiv{
+    display: none!important;
+}
+
+.cartItemDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 20px;
+    gap: 20px;
+    /* border-bottom: 1px solid #E7EBF5; */
+}
+.c_imgDiv{
+    display: flex;
+    width: 15%;
+}
+.c_img{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* height: 90px; */
+}
+.c_detailsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 5px;
+}
+.c_itemName{
+    font-size: 18px;
+    font-weight: 550;
+}
+.c_manufacturer{
+    font-size: 14px;
+}
+.PDD_div{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: left;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.c_discount{
+    padding-left: 10px;
+    color: #F47779;
+}
+.c_btnDiv{
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 10px;
+    width: 20%;
+}
+.deleteBtnDiv{
+    background-color: transparent;
+    border: none;
+     border-radius: 5px;
+}
+.deleteBtnDiv:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+
+    box-shadow: 1px 1px 2px 1px lightgray;
+}
+.selectparent{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+ }
+.c_btnDiv select{
+    display: flex;
+    padding: 10px 10px;
+    border-radius: 5px;
+    /* width: 40%; */
+    cursor: pointer;
+    border: none;
+    color: black;
+    border: 1px solid #E7EBF5 ;
+}
+#applyCouponDivId{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
+}
+.applyCouponBtn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #10847E;
+}
+.applyCouponBtn1:hover{
+    background-color: #216763;
+}
+.applyCouponBtn2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D6DFE4;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+     /* background-color: #10847E; */
+}
+.xDiv{
+    display: flex;
+    width: 40%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.grayText{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    /* font-size: 18px; */
+
+}
+.visibleDiv{
+    display: block;
+    /* visibility: visible */
+}

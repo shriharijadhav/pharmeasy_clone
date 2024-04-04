@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Products | Add to cart</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+ </head>
+<body>
+    <div class="outerDiv">
+        <!-- navbar starts here  -->
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#" class="nav_download">
+                        <img src="../images/logo_icons/micon.svg" alt="">
+                        <p>Download App</p>
+                    </a></li>
+                    <li>
+                        <a href="#" class="nav_download nobg">
+                            <img src="../images/logo_icons/man.svg" alt="">
+                            <p>Hello, Log in </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_download nobg">
+                            <img src="../images/logo_icons/offers.svg" alt="">
+                            <p>Offers</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_download nobg">
+                            <img src="../images/logo_icons/cart.svg" alt="">
+                            <p>Cart</p>
+                        </a>
+                    </li>
+                 
+                </ul>
+                <div class="nav_download nobg">
+
+                         <img src="../images/logo_icons/pharmeasy-logo.svg"  alt="">
+                         
+                         <div class="nav_download nobg">
+                            <img src="../images/logo_icons/express.svg" alt="">
+                            <p>Express delivery </p>
+                         </div>
+                         <img class="logo hideshow" width="150px" src="../images/logo_icons/pharmeasy-logo.svg" alt="">
+                 </div>
+                
+            </div>
+            <div class="navDiv2">
+               <div class="navDiv2Inner">
+                <p class="highlightGreen">Medicine</p>
+                <p class="highlightGreen">Lab Tests</p>
+                <p class="highlightGreen">Healthcare</p>
+                <p class="highlightGreen">Health Blogs</p>
+                <p class="highlightGreen">PLUS</p>
+                <p class="highlightGreen">Offers</p>
+                <p class="highlightGreen">Value Store</p>
+                
+               </div>
+            </div>
+            
+        </nav>
+        <!-- navbar ends here -->
+       <div class="mainDiv" id="mainDivId">
+
+        <div class="linkToHomeDiv">
+                <a href="../index.html">Home</a>
+                <img src="../images/logo_icons/myrightarrow.svg"width="10"  height="10" alt=""/>
+                <a href="../pages/buyproduct_homepage.html">Product Category</a>
+                <img src="../images/logo_icons/myrightarrow.svg"width="10"  height="10" alt=""/>
+
+                 <p>cart</p>
+
+        </div>
+     <!-- cart div starts here -->
+        <div class="cartMainDiv">
+            <div class="cartDiv" id="cartDivId">
+                <div class="headerForCart borderBottomDiv">
+                    <div style="display: flex; justify-content: center;align-items: center;gap: 10px;">
+                    <p class="largeF" id="itemCountID" >0</p>
+                    <p class="largeF ">Items in your Cart</p>
+                    </div>
+                    <p class="cartGreenColorText" style="font-size: 18px;cursor: pointer;">Saved for Later</p>
+                </div>
+                <div class="deliveryDiv borderBottomDiv " id="deliveryDivId">
+                    <div class="d_one">
+                        <img src="../images/logo_icons/locationIcon.svg" alt="">
+                        <p style="font-size: 18px;font-weight: bold;">Deliver to </p>
+                        <p style="font-size: 16px;">400001, Mumbai</p></div>
+                    <div>
+                        <p class="cartGreenColorText" style="font-size: 16px;cursor: pointer;font-weight: 600;">Change Address</p>
+
+                    </div>
+                </div>
+                <div class="emptyCartDiv" id="emptyCartDivID">
+                    <img src="../images/logo_icons/emptyCart.png" width="100px" alt="">
+                    <p style="color: gray;font-size: 18px;">Your Medicine/Healthcare cart is empty!</p>
+                </div>
+
+                <div class="leftSideCartUIDiv" id="leftSideCartUIDiv">
+
+                </div>
+                
+
+                <!-- cart item div starts -->
+                <!-- <div class="cartItemDiv borderBottomDiv">
+                    <div class="c_imgDiv">
+                        <img class="c_img" src="https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1698385993.jpg?dim=1440x1440&q=75" alt="">
+                    </div>
+                    <div class="c_detailsDiv">
+                        <p class="c_itemName">Everherb Karela Jamun Juice - Helps Maintains Healthy Sugar Levels -Helps In Weight Management - 1l</p>
+                        <p class="c_manufacturer">By EVERHERB</p>
+                        <div class="PDD_div">
+                            <p >MRP <span class="lineThrough">₹399.00*</span> </p>
+                            <p>₹207.48*</p>
+                            <p class="c_discount">48% OFF</p>
+                        </div>
+                        <p>Delivery by Today, before 10:00 pm</p>
+                    </div>
+                    <div class="c_btnDiv">
+                        <button class="deleteBtnDiv" >
+                            <img src="../images/logo_icons/icDelete.svg" alt="">
+                        </button>
+                        <div class="selectparent">
+                                <p>Qty</p>
+                                 <select name="selectQuantityName" id="selectQuantityID">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                         </div>
+                    </div>
+                </div> -->
+                <!-- cart item div ends -->
+                
+
+
+            </div>
+            <div class="billingMainDiv" >
+              <div class="billingMainDiv_one">
+                <div class="CartBillDiv mediumF borderBottomDiv">
+                    <p  >Cart total:</p>
+                    <p id="totlaPriceDivId">00.00</p>
+                </div>
+                <div class="proceedToCheckOutDiv" id="proceedToCheckOutDivID">
+                    <button id="proceedToCheckOutBtn">Proceed to Checkout</button>
+                </div>
+                <div class="proceedToCheckOutDiv" id="applyCouponDivId">
+                    <button class="applyCouponBtn1">Add Delivery Address</button>
+
+                    <button class="applyCouponBtn2">
+                      <div class="xDiv" >
+                        <img src="../images/logo_icons/cartCoupon.svg" width="30"   height="30" alt="">
+                        <p>Apply Coupon</p>
+                      </div>
+                      <div>
+                        <img src="../images/logo_icons/myrightarrow.svg" width="10" height="10" alt="">
+                      </div>
+                    </button>
+                </div>
+              </div>
+              <div class="billingMainDiv_two" id="billingMainDiv_twoID">
+                <div class="CartBillDiv mediumF borderBottomDiv">
+                    <p  >Bill Summary</p>
+                </div>
+                <div class="grayText">
+                  <span>
+                    Total MRP
+                  </span>
+                  <span id="totalMRPID">
+
+                  </span>
+                </div>
+                <div class="grayText">
+                    <span>
+                        Delivery charges
+                    </span>
+                    <span id="deliveryCharges ">
+                      Login
+                    </span>
+                  </div>
+                  <div class="grayText">
+                    <span>
+                        Discount on MRP
+                    </span>
+                    <span id="discountAmountID">
+                      
+                    </span>
+                  </div>
+                  <div class="grayText">
+                    <span>
+                        Cart Value
+                    </span>
+                    <span id="totalCartValueID">
+                      
+                    </span>
+                  </div>
+                  <div class="grayText mediumF">
+                    <span>
+                        Amount to be paid
+                    </span>
+                    <span id="amountToBePaidID">
+                      
+                    </span>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+     <!-- cart div ends here -->
+
+     
+        
+         <!-- footer starts here -->
+            <div class="footerMain">
+                <div class="footerInner">
+                    <div class="footer_c1 fd_column">
+                        <div class="fc2_one">
+                        <p class="footer_categoryName">Company</p>
+                    <ul id="f_companyID">
+                        
+                    </ul>
+                        </div>
+                        <div class="fc2_two">
+                        <p class="footer_categoryName">Our Services</p>
+                    <ul id="f_ourServicesID">
+                        
+                    </ul>
+                        </div>
+                </div>
+                
+                    <div class="footer_c2">
+                        <p class="footer_categoryName">Featured Categories</p>
+                        <ul id="f_featuredCategoryID">
+                            
+                        </ul>
+                    </div>
+                    <div class="footer_c3 fd_column">
+                        <div class="fc2_one">
+                        <p class="footer_categoryName">Need Help</p>
+                    <ul id="f_needHelpId">
+                        
+                    </ul>
+                        </div>
+                        <div class="fc2_two">
+                        <p class="footer_categoryName">Policy Info</p>
+                    <ul id="f_policyInfoId">
+                            
+                    </ul>
+                        </div>
+                </div>
+
+                <div class="footer_c4">
+                    <p class="footer_categoryName">payment section</p>
+                <ul >
+                    
+                </ul>
+            </div>
+                </div>
+            </div>
+        <!-- footer ends here -->
+
+
+
+        
+       </div>
+    </div>
+    
+    <script src="../pages_script/cart.js"></script>
+</body>
+</html>

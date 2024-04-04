@@ -9,20 +9,20 @@ function updateLocalCart(updatedCart) {
     localStorage.setItem('pharmEasyCart',JSON.stringify(updatedCart));
 }
 
-function addItemToCart(productId){
-    console.log(productId,'clicked');
-
+function addItemToCart(productId,quantity){
+    // console.log(productId,'clicked');
+    console.log(quantity,'revied quantity');
     // make itemNotFoundInCart true before start of process
     itemNotFoundInCart = true;
 
     allProductsData.map((element) =>{
         if(element.productId === productId){
-            element.quantity = 1;
+            element.quantity = quantity?quantity: 1;
 
             // check if item is already in cart
             cart.map((cartItem) =>{
                 if(cartItem.productId === productId){
-                    console.log('found in cart', cartItem.productId, 'quantity has been increased');
+                    // console.log('found in cart', cartItem.productId, 'quantity has been increased');
                     cartItem.quantity = cartItem.quantity + 1;
 
                     // set flag false if item is found in cart
@@ -31,7 +31,7 @@ function addItemToCart(productId){
             });
 
             if(itemNotFoundInCart){
-                console.log('not found in cart',element.productId, 'added to cart');
+                // console.log('not found in cart',element.productId, 'added to cart');
                 cart.push(element);
             }
 
@@ -46,7 +46,9 @@ function addItemToCart(productId){
 
 
 
+
 function showAllProductsData(parentID,data){
+    let selectedOption ;
     if (data.length > 0) {
         let parentDiv = document.getElementById(`${parentID}`);
 
@@ -94,7 +96,57 @@ function showAllProductsData(parentID,data){
                 const addToCartBtn = document.createElement('button');
                 addToCartBtn.className = 'BPG_addToCartBtn';
                 addToCartBtn.textContent = 'Add to Cart';
-                addToCartBtn.addEventListener('click', () =>{addItemToCart(item.productId);})
+
+                // Create a select element
+                const select = document.createElement('select');
+                select.classList.add('quantityDropdown');
+
+                // Create options and add them to the select element
+                for (let i = 1; i <= 10; i++) {
+                const option = document.createElement('option');
+                option.value = i;
+                option.textContent = i;
+                select.appendChild(option);
+                }
+
+                // Set the default option to 1
+                select.selectedIndex = 0;
+                 // Get the select element
+                
+                // Add change event listener to handle option selection
+                select.addEventListener('change', function(event) {
+                    selectedOption = select.querySelector('option:checked');
+                     // Remove 'Qty' from all options except the selected one
+                    const options = select.querySelectorAll('option');
+                    options.forEach(option => {
+                        // Find and remove the text node containing 'Qty'
+                        const qtyText = option.firstChild;
+                        if (qtyText.textContent === 'Qty ') {
+                        option.removeChild(qtyText);
+                        }
+                    });
+                    
+                    // Check if the selected option already contains 'Qty'
+                    if (!selectedOption.textContent.startsWith('Qty')) {
+                    // Create a new text node containing 'Qty'
+                    const qtyText = document.createTextNode('Qty ');
+                    
+                    // Append the new text node before the existing text content of the selected option
+                    selectedOption.insertBefore(qtyText, selectedOption.firstChild);
+                    }
+                    
+
+                    
+                 });
+
+
+
+                // Trigger change event to initialize the dropdown
+                select.dispatchEvent(new Event('change'));
+
+                 addToCartBtn.addEventListener('click', () =>{addItemToCart(item.productId,selectedOption.value);})
+
+
 
                 // Append child elements to their respective parent elements
                 subDiv.appendChild(originalPrice);
@@ -103,6 +155,7 @@ function showAllProductsData(parentID,data){
                 allProductsGridItem.appendChild(title);
                 allProductsGridItem.appendChild(subDiv);
                 allProductsGridItem.appendChild(price);
+                allProductsGridItem.appendChild(select);
                 allProductsGridItem.appendChild(addToCartBtn);
 
                 parentDiv.appendChild(allProductsGridItem);
@@ -148,7 +201,7 @@ async function  getAllProductPageData(){
     try {
         const response = await fetch('https://customapis.onrender.com/api/v1/getAllProductsData');
         const data = await response.json();
-        console.log(data.message[0].OuterObj.data.products);
+        // console.log(data.message[0].OuterObj.data.products);
 
         allProductsData = data.message[0].OuterObj.data.products;
         showAllProductsData('allProductsGridID',allProductsData);
@@ -179,18 +232,18 @@ async function getAllHomepageData(){
     }
 }
 
-function handleScroll() {
-    const scrollHeight = container.scrollHeight;
-    const scrollTop = container.scrollTop;
-    const clientHeight = container.clientHeight;
+// function handleScroll() {
+//     const scrollHeight = container.scrollHeight;
+//     const scrollTop = container.scrollTop;
+//     const clientHeight = container.clientHeight;
   
-    console.log(scrollHeight + " " + scrollTop + " "+ clientHeight);
-    if (scrollTop + clientHeight >= scrollHeight) {
-      // User has reached the bottom of the div
-      // Perform your action here, such as fetching more data
-      console.log("reached bottom of div");
-    }
-  }
+//     console.log(scrollHeight + " " + scrollTop + " "+ clientHeight);
+//     if (scrollTop + clientHeight >= scrollHeight) {
+//       // User has reached the bottom of the div
+//       // Perform your action here, such as fetching more data
+//       console.log("reached bottom of div");
+//     }
+//   }
 
 
 //   async function getNextSetOfData(pageCounter){

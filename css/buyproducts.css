@@ -55,7 +55,7 @@
     flex-direction: column;
     padding: 5px 10px;
     width: 230px;
-    height: 350px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -105,6 +105,19 @@
     align-items: center;
     margin-top: -10px;
     text-align: left;
+}
+.quantityDropdown{
+    display: flex;
+    width: 50%;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    /* color: white; */
+}
+.quantityDropdown option{
+    padding:10px 10px;
 }
 .BPG_addToCartBtn{
     display: flex;
